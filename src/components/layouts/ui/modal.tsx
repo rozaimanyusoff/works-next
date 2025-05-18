@@ -6,7 +6,7 @@ const modalSizeVariants = cva('rounded-2xl bg-white dark:bg-gray-300 dark-text-d
         size: {
             sm: 'w-64',
             md: 'w-96',
-            lg: 'w-[32rem]',
+            lg: 'w-lg',
         },
     },
     defaultVariants: {

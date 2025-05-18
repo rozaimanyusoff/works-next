@@ -19,7 +19,7 @@ const ComponentsMediaObjectDropdown = () => {
 <div className="dropdown mb-5">
     <div className="flex">
         <div className="ltr:mr-4 rtl:ml-4">
-            <img src="/assets/images/profile-5.jpeg" alt="img" className="h-14 w-14 rounded" />
+            <img src="/assets/images/profile-5.jpeg" alt="img" className="h-14 w-14 rounded-sm" />
         </div>
         <div className="flex-1">
             <div className="mb-2 flex justify-between">
@@ -31,7 +31,7 @@ const ComponentsMediaObjectDropdown = () => {
                         btnClassName="text-white-dark"
                         button={<IconHorizontalDots className="text-white-dark opacity-70" />}
                     >
-                        <ul className="!min-w-[130px]">
+                        <ul className="min-w-[130px]!">
                             <li>
                                 <button type="button">
                                     <IconChatDot className="ltr:mr-1 rtl:ml-1" />
@@ -65,7 +65,7 @@ const ComponentsMediaObjectDropdown = () => {
             <div className="dropdown mb-5">
                 <div className="flex">
                     <div className="ltr:mr-4 rtl:ml-4">
-                        <img src="/assets/images/profile-5.jpeg" alt="img" className="h-14 w-14 rounded" />
+                        <img src="/assets/images/profile-5.jpeg" alt="img" className="h-14 w-14 rounded-sm" />
                     </div>
                     <div className="flex-1">
                         <div className="mb-2 flex justify-between">
@@ -77,7 +77,7 @@ const ComponentsMediaObjectDropdown = () => {
                                     btnClassName="text-white-dark"
                                     button={<IconHorizontalDots className="text-white-dark opacity-70" />}
                                 >
-                                    <ul className="!min-w-[130px]">
+                                    <ul className="min-w-[130px]!">
                                         <li>
                                             <button type="button">
                                                 <IconChatDot className="ltr:mr-1 rtl:ml-1" />

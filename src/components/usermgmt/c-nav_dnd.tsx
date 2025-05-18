@@ -291,7 +291,7 @@ const NavigationMaintenance: React.FC = () => {
                     onDragEnd={handleDragEnd}
                     onDragOver={handleDragOver}
                 >
-                    <table className="min-w-full border border-gray-100 dark:border-dark bg-white rounded">
+                    <table className="min-w-full border border-gray-100 dark:border-dark bg-white rounded-sm">
                         <tbody>
                             <SortableContext
                                 items={allNavs.map(n => n.id)}
@@ -303,7 +303,7 @@ const NavigationMaintenance: React.FC = () => {
                     </table>
                     <DragOverlay>
                         {draggedNode ? (
-                            <div className="px-4 py-2 bg-white dark:bg-gray-800 border rounded shadow text-base font-bold">
+                            <div className="px-4 py-2 bg-white dark:bg-gray-800 border rounded-sm shadow-sm text-base font-bold">
                                 {draggedNode.title}
                             </div>
                         ) : null}
@@ -365,7 +365,7 @@ const NavigationMaintenance: React.FC = () => {
                             </div>
                             <div>
                                 <label className="block text-sm font-medium mb-1">Groups</label>
-                                <div className="flex flex-col gap-1 overflow-y-auto border rounded p-2 bg-white dark:bg-gray-900">
+                                <div className="flex flex-col gap-1 overflow-y-auto border rounded-sm p-2 bg-white dark:bg-gray-900">
                                     {groups.map(g => (
                                         <label key={g.id} className="inline-flex items-center gap-2 text-sm">
                                             <input

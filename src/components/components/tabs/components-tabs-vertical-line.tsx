@@ -22,7 +22,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                            className={\`\${selected ? 'text-secondary !outline-none before:!h-[80%]' : ''} relative -mb-[1px] block border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-[1px] before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-[1px] rtl:border-l rtl:before:-left-[1px] dark:border-[#191e3a] w-full\`}>
+                            className={\`\${selected ? 'text-secondary outline-hidden! before:h-[80%]!' : ''} relative -mb-px block border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-px before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-px rtl:border-l rtl:before:-left-px dark:border-[#191e3a] w-full\`}>
                             Home
                         </button>
                     )}
@@ -30,7 +30,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                            className={\`\${selected ? 'text-secondary !outline-none before:!h-[80%]' : ''} relative -mb-[1px] block border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-[1px] before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-[1px] rtl:border-l rtl:before:-left-[1px] dark:border-[#191e3a] w-full\`}>
+                            className={\`\${selected ? 'text-secondary outline-hidden! before:h-[80%]!' : ''} relative -mb-px block border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-px before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-px rtl:border-l rtl:before:-left-px dark:border-[#191e3a] w-full\`}>
                             Profile
                         </button>
                     )}
@@ -38,7 +38,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                            className={\`\${selected ? 'text-secondary !outline-none before:!h-[80%]' : ''} relative -mb-[1px] block border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-[1px] before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-[1px] rtl:border-l rtl:before:-left-[1px] dark:border-[#191e3a] w-full\`}>
+                            className={\`\${selected ? 'text-secondary outline-hidden! before:h-[80%]!' : ''} relative -mb-px block border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-px before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-px rtl:border-l rtl:before:-left-px dark:border-[#191e3a] w-full\`}>
                             Contact
                         </button>
                     )}
@@ -46,7 +46,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                            className={\`\${selected ? 'text-secondary !outline-none before:!h-[80%]' : ''} relative -mb-[1px] block border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-[1px] before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-[1px] rtl:border-l rtl:before:-left-[1px] dark:border-[#191e3a] w-full\`}>
+                            className={\`\${selected ? 'text-secondary outline-hidden! before:h-[80%]!' : ''} relative -mb-px block border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-px before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-px rtl:border-l rtl:before:-left-px dark:border-[#191e3a] w-full\`}>
                             Settings
                         </button>
                     )}
@@ -99,7 +99,7 @@ import { Fragment } from 'react';
             </div>
         </Tab.Panel>
         <Tab.Panel>
-            <div className="rounded-tr-md rounded-br-md border border-l-2 border-white-light !border-l-primary bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
+            <div className="rounded-tr-md rounded-br-md border border-l-2 border-white-light border-l-primary! bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
                 <div className="flex items-start">
                     <p className="m-0 text-sm not-italic text-[#515365] dark:text-white-dark">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -119,8 +119,8 @@ import { Fragment } from 'react';
                                 <Tab as={Fragment}>
                                     {({ selected }) => (
                                         <button
-                                            className={`${selected ? 'text-secondary !outline-none before:!h-[80%]' : ''}
-                                                    relative -mb-[1px] block w-full border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-[1px] before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-[1px] rtl:border-l rtl:before:-left-[1px] dark:border-[#191e3a]`}
+                                            className={`${selected ? 'text-secondary outline-hidden! before:h-[80%]!' : ''}
+                                                    relative -mb-px block w-full border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-px before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-px rtl:border-l rtl:before:-left-px dark:border-[#191e3a]`}
                                         >
                                             Home
                                         </button>
@@ -129,8 +129,8 @@ import { Fragment } from 'react';
                                 <Tab as={Fragment}>
                                     {({ selected }) => (
                                         <button
-                                            className={`${selected ? 'text-secondary !outline-none before:!h-[80%]' : ''}
-                                                    relative -mb-[1px] block w-full border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-[1px] before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-[1px] rtl:border-l rtl:before:-left-[1px] dark:border-[#191e3a]`}
+                                            className={`${selected ? 'text-secondary outline-hidden! before:h-[80%]!' : ''}
+                                                    relative -mb-px block w-full border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-px before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-px rtl:border-l rtl:before:-left-px dark:border-[#191e3a]`}
                                         >
                                             Profile
                                         </button>
@@ -139,8 +139,8 @@ import { Fragment } from 'react';
                                 <Tab as={Fragment}>
                                     {({ selected }) => (
                                         <button
-                                            className={`${selected ? 'text-secondary !outline-none before:!h-[80%]' : ''}
-                                                    relative -mb-[1px] block w-full border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-[1px] before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-[1px] rtl:border-l rtl:before:-left-[1px] dark:border-[#191e3a]`}
+                                            className={`${selected ? 'text-secondary outline-hidden! before:h-[80%]!' : ''}
+                                                    relative -mb-px block w-full border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-px before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-px rtl:border-l rtl:before:-left-px dark:border-[#191e3a]`}
                                         >
                                             Messages
                                         </button>
@@ -149,8 +149,8 @@ import { Fragment } from 'react';
                                 <Tab as={Fragment}>
                                     {({ selected }) => (
                                         <button
-                                            className={`${selected ? 'text-secondary !outline-none before:!h-[80%]' : ''}
-                                                    relative -mb-[1px] block w-full border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-[1px] before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-[1px] rtl:border-l rtl:before:-left-[1px] dark:border-[#191e3a]`}
+                                            className={`${selected ? 'text-secondary outline-hidden! before:h-[80%]!' : ''}
+                                                    relative -mb-px block w-full border-white-light p-3.5 py-4 before:absolute before:bottom-0 before:top-0 before:m-auto before:inline-block before:h-0 before:w-px before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:h-[80%] ltr:border-r ltr:before:-right-px rtl:border-l rtl:before:-left-px dark:border-[#191e3a]`}
                                         >
                                             Settings
                                         </button>
@@ -194,7 +194,7 @@ import { Fragment } from 'react';
                                 </p>
                             </Tab.Panel>
                             <Tab.Panel>
-                                <div className="rounded-br-md rounded-tr-md border border-l-2 border-white-light !border-l-primary bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
+                                <div className="rounded-br-md rounded-tr-md border border-l-2 border-white-light border-l-primary! bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
                                     <div className="flex items-start">
                                         <p className="m-0 text-sm not-italic text-[#515365] dark:text-white-dark">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis

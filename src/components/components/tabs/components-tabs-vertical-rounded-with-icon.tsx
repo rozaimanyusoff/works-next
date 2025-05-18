@@ -24,9 +24,9 @@ import { Fragment } from 'react';
             <Tab.List className="m-auto flex w-24 flex-col justify-center space-y-3">
                 <Tab as={Fragment}>
                     {({ selected }) => (
-                        <div className="flex-auto text-center !outline-none">
+                        <div className="flex-auto text-center outline-hidden!">
                             <button
-                                className={\`\${selected ? '!bg-success text-white !outline-none' : ''}  flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:!bg-success hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
+                                className={\`\${selected ? 'bg-success! text-white outline-hidden!' : ''}  flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:bg-success! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
                                 <svg>...</svg>
                                 Home
                             </button>
@@ -36,7 +36,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                            className={\`\${selected ? '!bg-success text-white !outline-none' : ''}  flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:!bg-success hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
+                            className={\`\${selected ? 'bg-success! text-white outline-hidden!' : ''}  flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:bg-success! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
                             <svg>...</svg>
                             Profile
                         </button>
@@ -45,7 +45,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                            className={\`\${selected ? '!bg-success text-white !outline-none' : ''}  flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:!bg-success hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
+                            className={\`\${selected ? 'bg-success! text-white outline-hidden!' : ''}  flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:bg-success! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
                             <svg>...</svg>
                             Contact
                         </button>
@@ -110,8 +110,8 @@ import { Fragment } from 'react';
                                     {({ selected }) => (
                                         <button
                                             className={`${
-                                                selected ? '!bg-success text-white !outline-none' : ''
-                                            } flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:!bg-success hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
+                                                selected ? 'bg-success! text-white outline-hidden!' : ''
+                                            } flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:bg-success! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
                                         >
                                             <IconHome className="mb-1" />
                                             Home
@@ -122,8 +122,8 @@ import { Fragment } from 'react';
                                     {({ selected }) => (
                                         <button
                                             className={`${
-                                                selected ? '!bg-success text-white !outline-none' : ''
-                                            } flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:!bg-success hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
+                                                selected ? 'bg-success! text-white outline-hidden!' : ''
+                                            } flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:bg-success! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
                                         >
                                             <IconUser className="mb-1 h-5 w-5" />
                                             Profile
@@ -134,8 +134,8 @@ import { Fragment } from 'react';
                                     {({ selected }) => (
                                         <button
                                             className={`${
-                                                selected ? '!bg-success text-white !outline-none' : ''
-                                            } flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:!bg-success hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
+                                                selected ? 'bg-success! text-white outline-hidden!' : ''
+                                            } flex flex-col items-center justify-center rounded-lg bg-[#f1f2f3] p-7 py-3 hover:bg-success! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
                                         >
                                             <IconPhone className="mb-1" />
                                             Contact

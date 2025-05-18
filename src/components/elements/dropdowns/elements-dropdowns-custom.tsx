@@ -23,7 +23,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
             <svg>...</svg>
         }
     >
-        <ul className="!min-w-[170px]">
+        <ul className="min-w-[170px]!">
             <li>
                 <button type="button">
                     Action
@@ -56,7 +56,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
             <svg>...</svg>
         }
     >
-        <ul className="!min-w-[170px]">
+        <ul className="min-w-[170px]!">
             <li>
                 <button type="button">
                     Action
@@ -89,7 +89,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
             <svg>...</svg>
         }
     >
-        <ul className="!min-w-[170px]">
+        <ul className="min-w-[170px]!">
             <li>
                 <button type="button">
                     Action
@@ -122,7 +122,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
             <svg>...</svg>
         }
     >
-        <ul className="!min-w-[170px]">
+        <ul className="min-w-[170px]!">
             <li>
                 <button type="button">
                     Action
@@ -156,7 +156,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                                 btnClassName="btn p-0 rounded-none border-0 shadow-none dropdown-toggle text-black dark:text-white-dark hover:text-primary dark:hover:text-primary"
                                 button={<IconHorizontalDots className="h-6 w-6 opacity-70" />}
                             >
-                                <ul className="!min-w-[170px]">
+                                <ul className="min-w-[170px]!">
                                     <li>
                                         <button type="button">Action</button>
                                     </li>
@@ -180,7 +180,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                                 btnClassName="btn p-0 rounded-none border-0 shadow-none dropdown-toggle text-black dark:text-white-dark hover:text-primary dark:hover:text-primary"
                                 button={<IconHorizontalDots className="h-6 w-6 opacity-70" />}
                             >
-                                <ul className="!min-w-[170px]">
+                                <ul className="min-w-[170px]!">
                                     <li>
                                         <button type="button">Action</button>
                                     </li>
@@ -204,7 +204,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                                 btnClassName="btn p-0 rounded-none border-0 shadow-none dropdown-toggle text-black dark:text-white-dark hover:text-primary dark:hover:text-primary"
                                 button={<IconHorizontalDots className="h-6 w-6 opacity-70" />}
                             >
-                                <ul className="!min-w-[170px]">
+                                <ul className="min-w-[170px]!">
                                     <li>
                                         <button type="button">Action</button>
                                     </li>
@@ -228,7 +228,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                                 btnClassName="btn p-0 rounded-none border-0 shadow-none dropdown-toggle text-black dark:text-white-dark hover:text-primary dark:hover:text-primary"
                                 button={<IconHorizontalDots className="h-6 w-6 opacity-70" />}
                             >
-                                <ul className="!min-w-[170px]">
+                                <ul className="min-w-[170px]!">
                                     <li>
                                         <button type="button">Action</button>
                                     </li>

@@ -33,7 +33,7 @@ const [modal1, setModal1] = useState(false);
             >
                 <div className="fixed inset-0" />
             </TransitionChild>
-            <div className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+            <div className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                 <div className="flex items-start justify-center min-h-screen px-4">
                     <TransitionChild
                         as={Fragment}
@@ -93,7 +93,7 @@ const [modal1, setModal1] = useState(false);
                         >
                             <div className="fixed inset-0" />
                         </TransitionChild>
-                        <div className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                        <div className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                             <div className="flex min-h-screen items-start justify-center px-4">
                                 <TransitionChild
                                     as={Fragment}

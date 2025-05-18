@@ -116,7 +116,7 @@ useEffect(() => {
                 type="text"
                 value={search}
                 placeholder="Search Attendees..."
-                className="form-input shadow-[0_0_4px_2px_rgb(31_45_61_/_10%)] bg-white rounded-full h-11 placeholder:tracking-wider ltr:pr-11 rtl:pl-11"
+                className="form-input shadow-[0_0_4px_2px_rgb(31_45_61/10%)] bg-white rounded-full h-11 placeholder:tracking-wider ltr:pr-11 rtl:pl-11"
                 onChange={(e) => setSearch(e.target.value)}
             />
             <button type="button" className="btn btn-primary absolute ltr:right-1 rtl:left-1 inset-y-0 m-auto rounded-full w-9 h-9 p-0 flex items-center justify-center">
@@ -129,7 +129,7 @@ useEffect(() => {
             return (
                 <div
                     key={item.email}
-                    className="bg-white dark:bg-[#1b2e4b] rounded-xl shadow-[0_0_4px_2px_rgb(31_45_61_/_10%)] p-3 flex items-center justify-between
+                    className="bg-white dark:bg-[#1b2e4b] rounded-xl shadow-[0_0_4px_2px_rgb(31_45_61/10%)] p-3 flex items-center justify-between
                         text-gray-500 font-semibold min-w-[625px] hover:text-primary transition-all duration-300 hover:scale-[1.01]"
                 >
                     <div className="user-profile">
@@ -155,7 +155,7 @@ useEffect(() => {
                                 type="text"
                                 value={search}
                                 placeholder="Search Attendees..."
-                                className="form-input h-11 rounded-full bg-white shadow-[0_0_4px_2px_rgb(31_45_61_/_10%)] placeholder:tracking-wider ltr:pr-11 rtl:pl-11"
+                                className="form-input h-11 rounded-full bg-white shadow-[0_0_4px_2px_rgb(31_45_61/10%)] placeholder:tracking-wider ltr:pr-11 rtl:pl-11"
                                 onChange={(e) => setSearch(e.target.value)}
                             />
                             <button type="button" className="btn btn-primary absolute inset-y-0 m-auto flex h-9 w-9 items-center justify-center rounded-full p-0 ltr:right-1 rtl:left-1">
@@ -169,7 +169,7 @@ useEffect(() => {
                                 <div
                                     key={item.email}
                                     className="flex min-w-[625px] items-center justify-between rounded-xl bg-white p-3 font-semibold
-                                         text-gray-500 shadow-[0_0_4px_2px_rgb(31_45_61_/_10%)] transition-all duration-300 hover:scale-[1.01] hover:text-primary dark:bg-[#1b2e4b]"
+                                         text-gray-500 shadow-[0_0_4px_2px_rgb(31_45_61/10%)] transition-all duration-300 hover:scale-[1.01] hover:text-primary dark:bg-[#1b2e4b]"
                                 >
                                     <div className="user-profile">
                                         <img src={`/assets/images/${item.thumb}`} alt="img" className="h-8 w-8 rounded-md object-cover" />

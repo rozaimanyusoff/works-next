@@ -22,7 +22,7 @@ const ComponentsFormsInputGroupButtonsWithDropdowns = () => {
                     btnClassName="bg-primary text-white flex justify-center items-center ltr:rounded-l-md rtl:rounded-r-md px-3 font-semibold border ltr:border-r-0 rtl:border-l-0 border-white-light dark:border-[#17263c] cursor-pointer pt-2 pb-2"
                     button={<span>Dropdown</span>}
                 >
-                    <ul className="!min-w-[170px]">
+                    <ul className="min-w-[170px]!">
                         <li>
                             <button type="button">Action</button>
                         </li>
@@ -53,7 +53,7 @@ const ComponentsFormsInputGroupButtonsWithDropdowns = () => {
                     btnClassName="bg-danger text-white flex justify-center items-center ltr:rounded-r-md rtl:rounded-l-md px-3 font-semibold border ltr:border-l-0 rtl:border-r-0 border-white-light dark:border-[#17263c] cursor-pointer pt-2 pb-2"
                     button={<span>Dropdown</span>}
                 >
-                    <ul className="!min-w-[170px]">
+                    <ul className="min-w-[170px]!">
                         <li>
                             <button type="button">Action</button>
                         </li>
@@ -85,7 +85,7 @@ const ComponentsFormsInputGroupButtonsWithDropdowns = () => {
                                     btnClassName="bg-primary text-white flex justify-center items-center ltr:rounded-l-md rtl:rounded-r-md px-3 font-semibold border ltr:border-r-0 rtl:border-l-0 border-white-light dark:border-[#17263c] cursor-pointer pt-2 pb-2"
                                     button={<span>Dropdown</span>}
                                 >
-                                    <ul className="!min-w-[170px]">
+                                    <ul className="min-w-[170px]!">
                                         <li>
                                             <button type="button">Action</button>
                                         </li>
@@ -116,7 +116,7 @@ const ComponentsFormsInputGroupButtonsWithDropdowns = () => {
                                     btnClassName="bg-danger text-white flex justify-center items-center ltr:rounded-r-md rtl:rounded-l-md px-3 font-semibold border ltr:border-l-0 rtl:border-r-0 border-white-light dark:border-[#17263c] cursor-pointer pt-2 pb-2"
                                     button={<span>Dropdown</span>}
                                 >
-                                    <ul className="!min-w-[170px]">
+                                    <ul className="min-w-[170px]!">
                                         <li>
                                             <button type="button">Action</button>
                                         </li>

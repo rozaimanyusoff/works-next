@@ -35,8 +35,8 @@ const ComponentsDragndropNewsFeed = () => {
                             return (
                                 <div className="mb-2.5" key={item.id}>
                                     <div className="rounded-md border border-white-light bg-white px-6 py-3.5 dark:border-dark dark:bg-[#1b2e4b]">
-                                        <div className="py-sm-2.5 items-md-center block text-center sm:flex ltr:md:text-left rtl:md:text-right">
-                                            <div className="ltr:sm:mr-4 rtl:sm:ml-4">
+                                        <div className="py-sm-2.5 items-md-center block text-center sm:flex md:ltr:text-left md:rtl:text-right">
+                                            <div className="sm:ltr:mr-4 sm:rtl:ml-4">
                                                 <img alt="avatar" src={`/assets/images/profile-${item.id + 1}.jpeg`} className="mx-auto h-11 w-11 rounded-lg" />
                                             </div>
                                             <div className="flex flex-1 flex-col items-center justify-between md:flex-row">
@@ -51,7 +51,7 @@ const ComponentsDragndropNewsFeed = () => {
                                             nostrud exercitation.
                                         </div>
                                         <div className="flex-wrap items-center md:flex">
-                                            <div className="text-center ltr:md:text-left rtl:md:text-right xl:flex-1">
+                                            <div className="text-center md:ltr:text-left md:rtl:text-right xl:flex-1">
                                                 <div className="flex justify-center -space-x-2 text-white rtl:space-x-reverse md:justify-start">
                                                     <img className="h-10 w-10 rounded-full object-cover ring-2 ring-white dark:ring-white-dark" src="/assets/images/profile-6.jpeg" alt="avatar" />
                                                     <img className="h-10 w-10 rounded-full object-cover ring-2 ring-white dark:ring-white-dark" src="/assets/images/profile-7.jpeg" alt="avatar" />
@@ -59,7 +59,7 @@ const ComponentsDragndropNewsFeed = () => {
                                                     <img className="h-10 w-10 rounded-full object-cover ring-2 ring-white dark:ring-white-dark" src="/assets/images/profile-10.jpeg" alt="avatar" />
                                                 </div>
                                             </div>
-                                            <div className="text-center ltr:md:text-right rtl:md:text-left">
+                                            <div className="text-center md:ltr:text-right md:rtl:text-left">
                                                 <span className="block pt-2 text-xs text-white-dark lg:pt-0">
                                                     <button className="mr-1 text-sm font-semibold text-danger dark:text-primary">Vincent, Mary</button>
                                                     and 19 other like this

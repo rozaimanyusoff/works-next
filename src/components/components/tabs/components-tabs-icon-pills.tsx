@@ -24,7 +24,7 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? 'bg-warning text-white !outline-none' : ''} before:inline-block -mb-[1px] flex items-center rounded p-3.5 py-2 hover:bg-warning hover:text-white\`}>
+                    className={\`\${selected ? 'bg-warning text-white outline-hidden!' : ''} before:inline-block -mb-px flex items-center rounded-sm p-3.5 py-2 hover:bg-warning hover:text-white\`}>
                     <svg>...</svg>
                     Home
                 </button>
@@ -33,7 +33,7 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? 'bg-warning text-white !outline-none' : ''} before:inline-block -mb-[1px] flex items-center rounded p-3.5 py-2 hover:bg-warning hover:text-white\`}>
+                    className={\`\${selected ? 'bg-warning text-white outline-hidden!' : ''} before:inline-block -mb-px flex items-center rounded-sm p-3.5 py-2 hover:bg-warning hover:text-white\`}>
                     <svg>...</svg>
                     Profile
                 </button>
@@ -42,13 +42,13 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? 'bg-warning text-white !outline-none' : ''} before:inline-block -mb-[1px] flex items-center rounded p-3.5 py-2 hover:bg-warning hover:text-white\`}>
+                    className={\`\${selected ? 'bg-warning text-white outline-hidden!' : ''} before:inline-block -mb-px flex items-center rounded-sm p-3.5 py-2 hover:bg-warning hover:text-white\`}>
                     <svg>...</svg>
                     Contact
                 </button>
             )}
         </Tab>
-        <Tab className="pointer-events-none -mb-[1px] flex items-center p-3.5 py-2 text-white-light dark:text-dark">
+        <Tab className="pointer-events-none -mb-px flex items-center p-3.5 py-2 text-white-light dark:text-dark">
             <svg>...</svg>
             Disabled
         </Tab>
@@ -108,8 +108,8 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? 'bg-warning text-white !outline-none' : ''}
-                                                    -mb-[1px] flex items-center rounded p-3.5 py-2 before:inline-block hover:bg-warning hover:text-white`}
+                                        className={`${selected ? 'bg-warning text-white outline-hidden!' : ''}
+                                                    -mb-px flex items-center rounded p-3.5 py-2 before:inline-block hover:bg-warning hover:text-white`}
                                     >
                                         <IconHome className="ltr:mr-2 rtl:ml-2" />
                                         Home
@@ -119,8 +119,8 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? 'bg-warning text-white !outline-none' : ''}
-                                                    -mb-[1px] flex items-center rounded p-3.5 py-2 before:inline-block hover:bg-warning hover:text-white`}
+                                        className={`${selected ? 'bg-warning text-white outline-hidden!' : ''}
+                                                    -mb-px flex items-center rounded p-3.5 py-2 before:inline-block hover:bg-warning hover:text-white`}
                                     >
                                         <IconUser className="h-5 w-5 ltr:mr-2 rtl:ml-2" />
                                         Profile
@@ -130,15 +130,15 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? 'bg-warning text-white !outline-none' : ''}
-                                                    -mb-[1px] flex items-center rounded p-3.5 py-2 before:inline-block hover:bg-warning hover:text-white`}
+                                        className={`${selected ? 'bg-warning text-white outline-hidden!' : ''}
+                                                    -mb-px flex items-center rounded p-3.5 py-2 before:inline-block hover:bg-warning hover:text-white`}
                                     >
                                         <IconPhone className="ltr:mr-2 rtl:ml-2" />
                                         Contact
                                     </button>
                                 )}
                             </Tab>
-                            <Tab className="pointer-events-none -mb-[1px] flex items-center p-3.5 py-2 text-white-light dark:text-dark">
+                            <Tab className="pointer-events-none -mb-px flex items-center p-3.5 py-2 text-white-light dark:text-dark">
                                 <IconInfoCircle className="h-5 w-5 ltr:mr-2 rtl:ml-2" />
                                 Disabled
                             </Tab>

@@ -21,9 +21,9 @@ import { Fragment } from 'react';
             <Tab.List className="m-auto flex w-24 flex-col justify-center space-y-3">
                 <Tab as={Fragment}>
                     {({ selected }) => (
-                        <div className="flex-auto text-center !outline-none">
+                        <div className="flex-auto text-center outline-hidden!">
                             <button
-                                className={\`\${selected ? '!bg-success text-white !outline-none' : ''} block rounded-md p-3.5 py-2 transition-all duration-300 hover:bg-success hover:text-white w-full text-left\`}>
+                                className={\`\${selected ? 'bg-success! text-white outline-hidden!' : ''} block rounded-md p-3.5 py-2 transition-all duration-300 hover:bg-success hover:text-white w-full text-left\`}>
                                 Home
                             </button>
                         </div>
@@ -32,7 +32,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                            className={\`\${selected ? '!bg-success text-white !outline-none' : ''} block rounded-md p-3.5 py-2 transition-all duration-300 hover:bg-success hover:text-white w-full text-left\`}>
+                            className={\`\${selected ? 'bg-success! text-white outline-hidden!' : ''} block rounded-md p-3.5 py-2 transition-all duration-300 hover:bg-success hover:text-white w-full text-left\`}>
                             Profile
                         </button>
                     )}
@@ -40,7 +40,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                            className={\`\${selected ? '!bg-success text-white !outline-none' : ''} block rounded-md p-3.5 py-2 transition-all duration-300 hover:bg-success hover:text-white w-full text-left\`}>
+                            className={\`\${selected ? 'bg-success! text-white outline-hidden!' : ''} block rounded-md p-3.5 py-2 transition-all duration-300 hover:bg-success hover:text-white w-full text-left\`}>
                             Contact
                         </button>
                     )}
@@ -93,7 +93,7 @@ import { Fragment } from 'react';
             </div>
         </Tab.Panel>
         <Tab.Panel>
-            <div className="rounded-tr-md rounded-br-md border border-l-2 border-white-light !border-l-primary bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
+            <div className="rounded-tr-md rounded-br-md border border-l-2 border-white-light border-l-primary! bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
                 <div className="flex items-start">
                     <p className="m-0 text-sm not-italic text-[#515365] dark:text-white-dark">
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
@@ -113,7 +113,7 @@ import { Fragment } from 'react';
                                 <Tab as={Fragment}>
                                     {({ selected }) => (
                                         <button
-                                            className={`${selected ? '!bg-success text-white !outline-none' : ''}
+                                            className={`${selected ? 'bg-success! text-white outline-hidden!' : ''}
                                                     block w-full rounded-md p-3.5 py-2 text-left transition-all duration-300 hover:bg-success hover:text-white`}
                                         >
                                             Home
@@ -123,7 +123,7 @@ import { Fragment } from 'react';
                                 <Tab as={Fragment}>
                                     {({ selected }) => (
                                         <button
-                                            className={`${selected ? '!bg-success text-white !outline-none' : ''}
+                                            className={`${selected ? 'bg-success! text-white outline-hidden!' : ''}
                                                     block w-full rounded-md p-3.5 py-2 text-left transition-all duration-300 hover:bg-success hover:text-white`}
                                         >
                                             Profile
@@ -133,7 +133,7 @@ import { Fragment } from 'react';
                                 <Tab as={Fragment}>
                                     {({ selected }) => (
                                         <button
-                                            className={`${selected ? '!bg-success text-white !outline-none' : ''}
+                                            className={`${selected ? 'bg-success! text-white outline-hidden!' : ''}
                                                     block w-full rounded-md p-3.5 py-2 text-left transition-all duration-300 hover:bg-success hover:text-white`}
                                         >
                                             Messages
@@ -143,7 +143,7 @@ import { Fragment } from 'react';
                                 <Tab as={Fragment}>
                                     {({ selected }) => (
                                         <button
-                                            className={`${selected ? '!bg-success text-white !outline-none' : ''}
+                                            className={`${selected ? 'bg-success! text-white outline-hidden!' : ''}
                                                     block w-full rounded-md p-3.5 py-2 text-left transition-all duration-300 hover:bg-success hover:text-white`}
                                         >
                                             Settings
@@ -190,7 +190,7 @@ import { Fragment } from 'react';
                                 </div>
                             </Tab.Panel>
                             <Tab.Panel>
-                                <div className="rounded-br-md rounded-tr-md border border-l-2 border-white-light !border-l-primary bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
+                                <div className="rounded-br-md rounded-tr-md border border-l-2 border-white-light border-l-primary! bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
                                     <div className="flex items-start">
                                         <p className="m-0 text-sm not-italic text-[#515365] dark:text-white-dark">
                                             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis

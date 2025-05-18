@@ -22,7 +22,7 @@ const ComponentsFormsInputGroupDropdownIcon = () => {
                 <svg> ... </svg>
             }
         >
-            <ul className="!min-w-[170px]">
+            <ul className="min-w-[170px]!">
                 <li>
                     <button type="button">Action</button>
                 </li>
@@ -52,7 +52,7 @@ const ComponentsFormsInputGroupDropdownIcon = () => {
                 <svg> ... </svg>
             }
         >
-            <ul className="!min-w-[170px]">
+            <ul className="min-w-[170px]!">
                 <li>
                     <button type="button">Action</button>
                 </li>
@@ -81,7 +81,7 @@ const ComponentsFormsInputGroupDropdownIcon = () => {
                                 btnClassName="bg-primary flex justify-center items-center ltr:rounded-l-md rtl:rounded-r-md px-3 font-semibold border ltr:border-r-0 rtl:border-l-0 border-white-light dark:border-[#17263c] cursor-pointer pt-2 pb-2"
                                 button={<IconSettings className="h-5 w-5 text-white" />}
                             >
-                                <ul className="!min-w-[170px]">
+                                <ul className="min-w-[170px]!">
                                     <li>
                                         <button type="button">Action</button>
                                     </li>
@@ -111,7 +111,7 @@ const ComponentsFormsInputGroupDropdownIcon = () => {
                                 btnClassName="bg-success flex justify-center items-center ltr:rounded-r-md rtl:rounded-l-md px-3 font-semibold border ltr:border-l-0 rtl:border-r-0 border-white-light dark:border-[#17263c] cursor-pointer pt-2 pb-2"
                                 button={<IconSettings className="h-5 w-5 text-white" />}
                             >
-                                <ul className="!min-w-[170px]">
+                                <ul className="min-w-[170px]!">
                                     <li>
                                         <button type="button">Action</button>
                                     </li>

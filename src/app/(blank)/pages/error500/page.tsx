@@ -14,7 +14,7 @@ const Error500 = () => {
                     <img src="/assets/images/error/500-dark.svg" alt="500" className="dark-img mx-auto -mt-10 w-full max-w-xs object-cover md:-mt-14 md:max-w-xl" />
                     <img src="/assets/images/error/500-light.svg" alt="500" className="light-img mx-auto -mt-10 w-full max-w-xs object-cover md:-mt-14 md:max-w-xl" />
                     <p className="mt-5 text-base dark:text-white">Internal server error!</p>
-                    <Link href="/" className="btn btn-gradient mx-auto !mt-7 w-max border-0 uppercase shadow-none">
+                    <Link href="/" className="btn btn-gradient mx-auto mt-7! w-max border-0 uppercase shadow-none">
                         Home
                     </Link>
                 </div>

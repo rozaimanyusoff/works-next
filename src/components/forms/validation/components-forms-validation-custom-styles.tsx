@@ -143,7 +143,7 @@ const submitForm4 = Yup.object().shape({
 
             <button
                 type="submit"
-                className="btn btn-primary !mt-6"
+                className="btn btn-primary mt-6!"
                 onClick={() => {
                     if (Object.keys(touched).length !== 0 && Object.keys(errors).length === 0) {
                         submitForm();
@@ -232,7 +232,7 @@ const submitForm4 = Yup.object().shape({
 
                             <button
                                 type="submit"
-                                className="btn btn-primary !mt-6"
+                                className="btn btn-primary mt-6!"
                                 onClick={() => {
                                     if (Object.keys(touched).length !== 0 && Object.keys(errors).length === 0) {
                                         submitForm();

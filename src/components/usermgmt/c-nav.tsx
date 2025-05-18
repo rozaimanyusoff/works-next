@@ -177,7 +177,7 @@ const NavigationMaintenance: React.FC = () => {
                     </button>
                 </div>
                 <div className="overflow-x-auto">
-                    <table className="min-w-full border border-gray-200 dark:border-dark bg-white rounded">
+                    <table className="min-w-full border border-gray-200 dark:border-dark bg-white rounded-sm">
                         {/* <thead>
                 <tr>
                   <th className="text-left px-2 py-1 border-b border-gray-200 w-64">Navigation Structure</th>
@@ -240,7 +240,7 @@ const NavigationMaintenance: React.FC = () => {
                                 </div>
                                 <div>
                                     <label className="block text-sm font-medium mb-1">Groups</label>
-                                    <div className="flex flex-col gap-1 overflow-y-auto border rounded p-2 bg-white dark:bg-gray-900 dark:border-gray-500">
+                                    <div className="flex flex-col gap-1 overflow-y-auto border rounded-sm p-2 bg-white dark:bg-gray-900 dark:border-gray-500">
                                         {groups.map(g => (
                                             <label key={g.id} className="inline-flex items-center gap-2 text-sm">
                                                 <input

@@ -18,7 +18,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
 <div className="dropdown">
     <Dropdown
         placement={\`\${isRtl ? 'left-end' : 'left-start'}\`}
-        btnClassName="btn btn-danger dropdown-toggle !flex"
+        btnClassName="btn btn-danger dropdown-toggle flex!"
         button={
             <>
                 <svg>...</svg>
@@ -26,7 +26,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
             </>
         }
     >
-        <ul className="!min-w-[170px]">
+        <ul className="min-w-[170px]!">
             <li>
                 <button type="button">
                     Action
@@ -54,7 +54,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
 <div className="dropdown">
     <Dropdown
         placement={\`\${isRtl ? 'left-end' : 'left-start'}\`}
-        btnClassName="btn btn-outline-danger dropdown-toggle !flex"
+        btnClassName="btn btn-outline-danger dropdown-toggle flex!"
         button={
             <>
                 <svg>...</svg>
@@ -62,7 +62,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
             </>
         }
     >
-        <ul className="!min-w-[170px]">
+        <ul className="min-w-[170px]!">
             <li>
                 <button type="button">
                     Action
@@ -93,7 +93,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                         <div className="dropdown">
                             <Dropdown
                                 placement={`${isRtl ? 'left-end' : 'left-start'}`}
-                                btnClassName="btn btn-danger dropdown-toggle !flex"
+                                btnClassName="btn btn-danger dropdown-toggle flex!"
                                 button={
                                     <>
                                         <IconCaretDown className="inline-block rotate-90 ltr:mr-1 rtl:ml-1 rtl:-rotate-90" />
@@ -101,7 +101,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                                     </>
                                 }
                             >
-                                <ul className="!min-w-[170px]">
+                                <ul className="min-w-[170px]!">
                                     <li>
                                         <button type="button">Action</button>
                                     </li>
@@ -122,7 +122,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                         <div className="dropdown">
                             <Dropdown
                                 placement={`${isRtl ? 'left-end' : 'left-start'}`}
-                                btnClassName="btn btn-outline-danger dropdown-toggle !flex"
+                                btnClassName="btn btn-outline-danger dropdown-toggle flex!"
                                 button={
                                     <>
                                         <IconCaretDown className="inline-block rotate-90 ltr:mr-1 rtl:ml-1 rtl:-rotate-90" />
@@ -130,7 +130,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                                     </>
                                 }
                             >
-                                <ul className="!min-w-[170px]">
+                                <ul className="min-w-[170px]!">
                                     <li>
                                         <button type="button">Action</button>
                                     </li>

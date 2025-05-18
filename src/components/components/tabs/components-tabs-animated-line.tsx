@@ -23,7 +23,7 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? 'text-secondary !outline-none before:!w-full' : ''} relative -mb-[1px] flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-[1px] before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full\`}>
+                    className={\`\${selected ? 'text-secondary outline-hidden! before:w-full!' : ''} relative -mb-px flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-px before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full\`}>
                     <svg>...</svg>
                     Home
                 </button>
@@ -32,7 +32,7 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? 'text-secondary !outline-none before:!w-full' : ''} relative -mb-[1px] flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-[1px] before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full\`}>
+                    className={\`\${selected ? 'text-secondary outline-hidden! before:w-full!' : ''} relative -mb-px flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-px before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full\`}>
                     <svg>...</svg>
                     Profile
                 </button>
@@ -41,7 +41,7 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? 'text-secondary !outline-none before:!w-full' : ''} relative -mb-[1px] flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-[1px] before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full\`}>
+                    className={\`\${selected ? 'text-secondary outline-hidden! before:w-full!' : ''} relative -mb-px flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-px before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full\`}>
                     <svg>...</svg>
                     Contact
                 </button>
@@ -102,8 +102,8 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? 'text-secondary !outline-none before:!w-full' : ''}
-                                                    relative -mb-[1px] flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-[1px] before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full`}
+                                        className={`${selected ? 'text-secondary outline-hidden! before:w-full!' : ''}
+                                                    relative -mb-px flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-px before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full`}
                                     >
                                         <IconHome className="ltr:mr-2 rtl:ml-2" />
                                         Home
@@ -113,8 +113,8 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? 'text-secondary !outline-none before:!w-full' : ''}
-                                                relative -mb-[1px] flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-[1px] before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full`}
+                                        className={`${selected ? 'text-secondary outline-hidden! before:w-full!' : ''}
+                                                relative -mb-px flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-px before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full`}
                                     >
                                         <IconUser className="h-5 w-5 ltr:mr-2 rtl:ml-2" />
                                         Profile
@@ -124,8 +124,8 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? 'text-secondary !outline-none before:!w-full' : ''}
-                                                relative -mb-[1px] flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-[1px] before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full`}
+                                        className={`${selected ? 'text-secondary outline-hidden! before:w-full!' : ''}
+                                                relative -mb-px flex items-center p-5 py-3 before:absolute before:bottom-0 before:left-0 before:right-0 before:m-auto before:inline-block before:h-px before:w-0 before:bg-secondary before:transition-all before:duration-700 hover:text-secondary hover:before:w-full`}
                                     >
                                         <IconPhone className="ltr:mr-2 rtl:ml-2" />
                                         Contact

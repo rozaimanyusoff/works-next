@@ -25,10 +25,10 @@ const [active3, setActive3] = useState<string>('1');
 
 <div className="mb-5">
     <div className="space-y-2 font-semibold">
-        <div className="border border-[#d3d3d3] rounded dark:border-[#1b2e4b]">
+        <div className="border border-[#d3d3d3] rounded-sm dark:border-[#1b2e4b]">
             <button
                 type="button"
-                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active3 === '1' ? '!text-primary' : ''}\`}
+                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active3 === '1' ? 'text-primary!' : ''}\`}
                 onClick={() => togglePara3('1')}
             >
                 Collapsible Group Item #1
@@ -48,10 +48,10 @@ const [active3, setActive3] = useState<string>('1');
                 </AnimateHeight>
             </div>
         </div>
-        <div className="border border-[#d3d3d3] dark:border-[#1b2e4b] rounded">
+        <div className="border border-[#d3d3d3] dark:border-[#1b2e4b] rounded-sm">
             <button
                 type="button"
-                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active3 === '2' ? '!text-primary' : ''}\`}
+                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active3 === '2' ? 'text-primary!' : ''}\`}
                 onClick={() => togglePara3('2')}
             >
                 Collapsible Group Item #2
@@ -77,10 +77,10 @@ const [active3, setActive3] = useState<string>('1');
                 </AnimateHeight>
             </div>
         </div>
-        <div className="border border-[#d3d3d3] dark:border-[#1b2e4b] rounded">
+        <div className="border border-[#d3d3d3] dark:border-[#1b2e4b] rounded-sm">
             <button
                 type="button"
-                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active3 === '3' ? '!text-primary' : ''}\`}
+                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active3 === '3' ? 'text-primary!' : ''}\`}
                 onClick={() => togglePara3('3')}
             >
                 Collapsible Group Item #3
@@ -108,7 +108,7 @@ const [active3, setActive3] = useState<string>('1');
             <div className="mb-5">
                 <div className="space-y-2 font-semibold">
                     <div className="rounded border border-[#d3d3d3] dark:border-[#1b2e4b]">
-                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active3 === '1' ? '!text-primary' : ''}`} onClick={() => togglePara3('1')}>
+                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active3 === '1' ? 'text-primary!' : ''}`} onClick={() => togglePara3('1')}>
                             Collapsible Group Item #1
                         </button>
                         <div>
@@ -127,7 +127,7 @@ const [active3, setActive3] = useState<string>('1');
                         </div>
                     </div>
                     <div className="rounded border border-[#d3d3d3] dark:border-[#1b2e4b]">
-                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active3 === '2' ? '!text-primary' : ''}`} onClick={() => togglePara3('2')}>
+                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active3 === '2' ? 'text-primary!' : ''}`} onClick={() => togglePara3('2')}>
                             Collapsible Group Item #2
                         </button>
                         <div>
@@ -152,7 +152,7 @@ const [active3, setActive3] = useState<string>('1');
                         </div>
                     </div>
                     <div className="rounded border border-[#d3d3d3] dark:border-[#1b2e4b]">
-                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active3 === '3' ? '!text-primary' : ''}`} onClick={() => togglePara3('3')}>
+                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active3 === '3' ? 'text-primary!' : ''}`} onClick={() => togglePara3('3')}>
                             Collapsible Group Item #3
                         </button>
                         <div>

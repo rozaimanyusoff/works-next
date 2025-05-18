@@ -15,15 +15,15 @@ const ComponentsFormsWizardsCircleTextAndIcon = () => {
 const [activeTab4, setActiveTab4] = useState<any>(1);
 
 <div className="inline-block w-full">
-    <div className="relative z-[1]">
+    <div className="relative z-1">
         <div
             className={\`\${activeTab4 === 1 ? 'w-[15%]' : activeTab4 === 2 ? 'w-[48%]' : activeTab4 === 3 ? 'w-[81%]' : ''}
-            bg-primary w-[15%] h-1 absolute ltr:left-0 rtl:right-0 top-[30px] m-auto -z-[1] transition-[width]\`}
+            bg-primary w-[15%] h-1 absolute ltr:left-0 rtl:right-0 top-[30px] m-auto -z-1 transition-[width]\`}
         ></div>
         <ul className="mb-5 grid grid-cols-3">
             <li className="mx-auto">
                 <button type="button"
-                    className={\`\${activeTab4 === 1 ? '!border-primary !bg-primary text-white' : ''}
+                    className={\`\${activeTab4 === 1 ? 'border-primary! bg-primary! text-white' : ''}
                     border-[3px] border-[#f3f2ee] bg-white dark:bg-[#253b5c] dark:border-[#1b2e4b] flex justify-center items-center w-16 h-16 rounded-full\`}
                     onClick={() => setActiveTab4(1)}
                 >
@@ -33,7 +33,7 @@ const [activeTab4, setActiveTab4] = useState<any>(1);
             </li>
             <li className="mx-auto">
                 <button type="button"
-                    className={\`\${activeTab4 === 2 ? '!border-primary !bg-primary text-white' : ''}
+                    className={\`\${activeTab4 === 2 ? 'border-primary! bg-primary! text-white' : ''}
                     border-[3px] border-[#f3f2ee] bg-white dark:bg-[#253b5c] dark:border-[#1b2e4b] flex justify-center items-center w-16 h-16 rounded-full\`}
                     onClick={() => setActiveTab4(2)}
                 >
@@ -43,7 +43,7 @@ const [activeTab4, setActiveTab4] = useState<any>(1);
             </li>
             <li className="mx-auto">
                 <button type="button"
-                    className={\`\${activeTab4 === 3 ? '!border-primary !bg-primary text-white' : ''}
+                    className={\`\${activeTab4 === 3 ? 'border-primary! bg-primary! text-white' : ''}
                     border-[3px] border-[#f3f2ee] bg-white dark:bg-[#253b5c] dark:border-[#1b2e4b] flex justify-center items-center w-16 h-16 rounded-full\`}
                     onClick={() => setActiveTab4(3)}
                 >
@@ -72,16 +72,16 @@ const [activeTab4, setActiveTab4] = useState<any>(1);
         >
             <div className="mb-5">
                 <div className="inline-block w-full">
-                    <div className="relative z-[1]">
+                    <div className="relative z-1">
                         <div
                             className={`${activeTab4 === 1 ? 'w-[15%]' : activeTab4 === 2 ? 'w-[48%]' : activeTab4 === 3 ? 'w-[81%]' : ''}
-                                        absolute top-[30px] -z-[1] m-auto h-1 w-[15%] bg-primary transition-[width] ltr:left-0 rtl:right-0`}
+                                        absolute top-[30px] -z-1 m-auto h-1 w-[15%] bg-primary transition-[width] ltr:left-0 rtl:right-0`}
                         ></div>
                         <ul className="mb-5 grid grid-cols-3">
                             <li className="mx-auto">
                                 <button
                                     type="button"
-                                    className={`${activeTab4 === 1 ? '!border-primary !bg-primary text-white' : ''}
+                                    className={`${activeTab4 === 1 ? 'border-primary! bg-primary! text-white' : ''}
                                                 flex h-16 w-16 items-center justify-center rounded-full border-[3px] border-[#f3f2ee] bg-white dark:border-[#1b2e4b] dark:bg-[#253b5c]`}
                                     onClick={() => setActiveTab4(1)}
                                 >
@@ -92,7 +92,7 @@ const [activeTab4, setActiveTab4] = useState<any>(1);
                             <li className="mx-auto">
                                 <button
                                     type="button"
-                                    className={`${activeTab4 === 2 ? '!border-primary !bg-primary text-white' : ''}
+                                    className={`${activeTab4 === 2 ? 'border-primary! bg-primary! text-white' : ''}
                                                 flex h-16 w-16 items-center justify-center rounded-full border-[3px] border-[#f3f2ee] bg-white dark:border-[#1b2e4b] dark:bg-[#253b5c]`}
                                     onClick={() => setActiveTab4(2)}
                                 >
@@ -103,7 +103,7 @@ const [activeTab4, setActiveTab4] = useState<any>(1);
                             <li className="mx-auto">
                                 <button
                                     type="button"
-                                    className={`${activeTab4 === 3 ? '!border-primary !bg-primary text-white' : ''}
+                                    className={`${activeTab4 === 3 ? 'border-primary! bg-primary! text-white' : ''}
                                                 flex h-16 w-16 items-center justify-center rounded-full border-[3px] border-[#f3f2ee] bg-white dark:border-[#1b2e4b] dark:bg-[#253b5c]`}
                                     onClick={() => setActiveTab4(3)}
                                 >

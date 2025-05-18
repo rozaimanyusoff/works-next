@@ -560,9 +560,9 @@ const UserManagement = () => {
                                             Reset Password
                                         </button>
                                         {showPasswordDropdown && (
-                                            <div className="absolute left-0 top-0 z-20 mt-0 w-56 bg-amber-200 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded shadow-lg p-4 overflow-y-auto">
+                                            <div className="absolute left-0 top-0 z-20 mt-0 w-56 bg-amber-200 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-sm shadow-lg p-4 overflow-y-auto">
                                                 <div className="font-semibold text-sm mb-2 text-gray-700 dark:text-gray-200">Reset Password</div>
-                                                <div className="text-sm text-red-600 rounded p-1 mb-2">
+                                                <div className="text-sm text-red-600 rounded-sm p-1 mb-2">
                                                     A new password will be generated and sent to the user's email. This action cannot be undone.<br />
                                                     Are you sure you want to reset the password for the selected user(s)?
                                                 </div>
@@ -583,7 +583,7 @@ const UserManagement = () => {
                                             Suspend / Activate
                                         </button>
                                         {showSuspendDropdown && (
-                                            <div className="absolute left-0 top-0 z-20 mt-0 w-56 bg-stone-200 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded shadow-lg p-4 max-h-64 overflow-y-auto">
+                                            <div className="absolute left-0 top-0 z-20 mt-0 w-56 bg-stone-200 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-sm shadow-lg p-4 max-h-64 overflow-y-auto">
                                                 <div className="font-semibold text-sm mb-2 text-gray-700 dark:text-gray-200">Select Action</div>
                                                 <ul>
                                                     <li className="flex items-center gap-2 py-1">
@@ -624,7 +624,7 @@ const UserManagement = () => {
                                             <FontAwesomeIcon icon={faChevronDown} className="ml-2" />
                                         </button>
                                         {showRoleDropdown && (
-                                            <div className="absolute left-0 top-0 z-20 mt-0 w-56 bg-stone-200 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded shadow-lg p-2 overflow-y-auto">
+                                            <div className="absolute left-0 top-0 z-20 mt-0 w-56 bg-stone-200 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-sm shadow-lg p-2 overflow-y-auto">
                                                 <div className="font-semibold text-sm mb-2 text-gray-700 dark:text-gray-200">Select Role</div>
                                                 <ul>
                                                     {allRoles.map((role: any) => (
@@ -658,7 +658,7 @@ const UserManagement = () => {
                                             <FontAwesomeIcon icon={faChevronDown} className="ml-2" />
                                         </button>
                                         {showGroupDropdown && (
-                                            <div className="absolute left-0 top-0 z-20 mt-0 w-56 bg-stone-200 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded shadow-lg p-2 overflow-y-auto">
+                                            <div className="absolute left-0 top-0 z-20 mt-0 w-56 bg-stone-200 dark:bg-gray-900 border border-gray-200 dark:border-gray-700 rounded-sm shadow-lg p-2 overflow-y-auto">
                                                 <div className="font-semibold text-sm mb-2 text-gray-700 dark:text-gray-200">Select Groups</div>
                                                 <ul>
                                                     {allGroups.map((group: any) => (
@@ -698,7 +698,7 @@ const UserManagement = () => {
                                         onChange={e => setSelectedUsersSearch(e.target.value)}
                                     />
                                     <button
-                                        className="btn btn-xs border-0 bg-red-600 hover:bg-red-700 text-white rounded mb-2"
+                                        className="btn btn-xs border-0 bg-red-600 hover:bg-red-700 text-white rounded-sm mb-2"
                                         onClick={() => clearUserSelection(true)}
                                         type="button"
                                         style={{ width: '100%' }}

@@ -86,12 +86,12 @@ const FGroupForm: React.FC<FGroupFormProps> = ({
 				</div>
 				<div className="flex flex-col lg:flex-row gap-4 w-full text-sm">
 					{/* Assigned Users */}
-					<div className="w-full lg:w-1/2 border dark:border-gray-700 rounded p-3 flex-shrink-0 min-w-0 max-w-full lg:min-w-[260px] lg:max-w-[340px] bg-gray-50 dark:bg-gray-800 mb-4 lg:mb-0">
+					<div className="w-full lg:w-1/2 border dark:border-gray-700 rounded-sm p-3 shrink-0 min-w-0 max-w-full lg:min-w-[260px] lg:max-w-[340px] bg-gray-50 dark:bg-gray-800 mb-4 lg:mb-0">
 						<div className="flex items-center justify-between mb-1">
 							<span className="font-semibold underline underline-offset-4">Assigned Users</span>
 							<button
 								type="button"
-								className="px-2 py-1 text-sm rounded-full hover:bg-green-100 hover:shadow transition flex items-center gap-1"
+								className="px-2 py-1 text-sm rounded-full hover:bg-green-100 hover:shadow-sm transition flex items-center gap-1"
 								onClick={onAssignUsers}
 							>
 								<FontAwesomeIcon icon={faPlusCircle} className="text-green-600 text-lg" /> Assign Users
@@ -117,7 +117,7 @@ const FGroupForm: React.FC<FGroupFormProps> = ({
 						)}
 					</div>
 					{/* Navigation Structure Assignment (with label and assign button) */}
-					<div className="flex-1 w-full dark:border-gray-700 rounded min-w-0 max-w-full bg-gray-50 dark:bg-gray-800">
+					<div className="flex-1 w-full dark:border-gray-700 rounded-sm min-w-0 max-w-full bg-gray-50 dark:bg-gray-800">
 						{navTreeStructure && navTreeStructure.length > 0 ? (
 							<NavTreeView
 								tree={navTreeStructure}

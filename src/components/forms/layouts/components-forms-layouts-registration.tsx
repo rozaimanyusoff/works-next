@@ -15,7 +15,7 @@ const ComponentsFormsLayoutsRegistration = () => {
     <div>
         <input type="password" placeholder="Enter Confirm Password *" className="form-input" />
     </div>
-    <div className="!mt-2">
+    <div className="mt-2!">
         <span className="text-white-dark text-[11px] inline-block">*Required Fields</span>
     </div>
     <div>
@@ -24,7 +24,7 @@ const ComponentsFormsLayoutsRegistration = () => {
             <span className="text-white-dark">Subscribe to weekly newsletter</span>
         </label>
     </div>
-    <button type="submit" className="btn btn-primary !mt-6">
+    <button type="submit" className="btn btn-primary mt-6!">
         Submit
     </button>
 </form>`}
@@ -40,7 +40,7 @@ const ComponentsFormsLayoutsRegistration = () => {
                     <div>
                         <input type="password" placeholder="Enter Confirm Password *" className="form-input" />
                     </div>
-                    <div className="!mt-2">
+                    <div className="mt-2!">
                         <span className="inline-block text-[11px] text-white-dark">*Required Fields</span>
                     </div>
                     <div>
@@ -49,7 +49,7 @@ const ComponentsFormsLayoutsRegistration = () => {
                             <span className="text-white-dark">Subscribe to weekly newsletter</span>
                         </label>
                     </div>
-                    <button type="submit" className="btn btn-primary !mt-6">
+                    <button type="submit" className="btn btn-primary mt-6!">
                         Submit
                     </button>
                 </form>

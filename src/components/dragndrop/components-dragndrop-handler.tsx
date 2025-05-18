@@ -70,7 +70,7 @@ const ComponentsDragndropHandler = () => {
                                 return (
                                     <li key={item.id} className="mb-2.5 cursor-grab">
                                         <div className="items-md-center flex flex-col rounded-md border border-white-light bg-white px-6 py-3.5 ltr:text-left rtl:text-right dark:border-dark dark:bg-[#1b2e4b] md:flex-row">
-                                            <div className="ltr:sm:mr-4 rtl:sm:ml-4">
+                                            <div className="sm:ltr:mr-4 sm:rtl:ml-4">
                                                 <img alt="avatar" src={`/assets/images/profile-${item.id}.jpeg`} className="mx-auto h-11 w-11 rounded-full" />
                                             </div>
                                             <div className="flex flex-1 flex-col items-center justify-between text-center md:flex-row md:text-left">
@@ -79,7 +79,7 @@ const ComponentsDragndropHandler = () => {
                                                     <div className="text-xs text-white-dark">{item.name}</div>
                                                 </div>
                                                 <div className="text-white-dark">
-                                                    <span className="handle cursor-move rounded bg-[#ebedf2] px-2 ltr:mr-1 rtl:ml-1 dark:bg-black">+</span>
+                                                    <span className="handle cursor-move rounded-sm bg-[#ebedf2] px-2 ltr:mr-1 rtl:ml-1 dark:bg-black">+</span>
                                                 </div>
                                             </div>
                                         </div>
@@ -97,7 +97,7 @@ const ComponentsDragndropHandler = () => {
                                 return (
                                     <li key={item.id} className="mb-2.5 cursor-grab">
                                         <div className="items-md-center flex flex-col rounded-md border border-white-light bg-white px-6 py-3.5 ltr:text-left rtl:text-right dark:border-dark dark:bg-[#1b2e4b] md:flex-row">
-                                            <div className="ltr:sm:mr-4 rtl:sm:ml-4">
+                                            <div className="sm:ltr:mr-4 sm:rtl:ml-4">
                                                 <img alt="avatar" src={`/assets/images/profile-${item.id}.jpeg`} className="mx-auto h-11 w-11 rounded-full" />
                                             </div>
                                             <div className="block flex-1 items-center justify-between text-center sm:flex md:text-left">
@@ -106,7 +106,7 @@ const ComponentsDragndropHandler = () => {
                                                     <div className="text-xs text-white-dark">{item.name}</div>
                                                 </div>
                                                 <div className="text-white-dark">
-                                                    <span className="handle cursor-move rounded bg-[#ebedf2] px-2 ltr:mr-1 rtl:ml-1 dark:bg-black">+</span>
+                                                    <span className="handle cursor-move rounded-sm bg-[#ebedf2] px-2 ltr:mr-1 rtl:ml-1 dark:bg-black">+</span>
                                                 </div>
                                             </div>
                                         </div>

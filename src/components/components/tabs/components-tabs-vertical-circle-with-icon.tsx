@@ -24,9 +24,9 @@ import { Fragment } from 'react';
             <Tab.List className="m-auto flex w-24 flex-col justify-center space-y-3">
                 <Tab as={Fragment}>
                     {({ selected }) => (
-                        <div className="flex-auto text-center !outline-none">
+                        <div className="flex-auto text-center outline-hidden!">
                             <button
-                                className={\`\${selected ? '!bg-info text-white !outline-none' : ''} duration-300 flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all hover:!bg-info hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
+                                className={\`\${selected ? 'bg-info! text-white outline-hidden!' : ''} duration-300 flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all hover:bg-info! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
                                 <svg>...</svg>
                                 Home
                             </button>
@@ -36,7 +36,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                            className={\`\${selected ? '!bg-info text-white !outline-none' : ''} duration-300 flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all hover:!bg-info hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
+                            className={\`\${selected ? 'bg-info! text-white outline-hidden!' : ''} duration-300 flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all hover:bg-info! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
                             <svg>...</svg>
                             Profile
                         </button>
@@ -45,7 +45,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                            className={\`\${selected ? '!bg-info text-white !outline-none' : ''} duration-300 flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all hover:!bg-info hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
+                            className={\`\${selected ? 'bg-info! text-white outline-hidden!' : ''} duration-300 flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all hover:bg-info! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]\`}>
                             <svg>...</svg>
                             Contact
                         </button>
@@ -109,8 +109,8 @@ import { Fragment } from 'react';
                                 <Tab as={Fragment}>
                                     {({ selected }) => (
                                         <button
-                                            className={`${selected ? '!bg-info text-white !outline-none' : ''}
-                                                    flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all duration-300 hover:!bg-info hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
+                                            className={`${selected ? 'bg-info! text-white outline-hidden!' : ''}
+                                                    flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all duration-300 hover:bg-info! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
                                         >
                                             <IconHome className="h-6 w-6" />
                                         </button>
@@ -119,8 +119,8 @@ import { Fragment } from 'react';
                                 <Tab as={Fragment}>
                                     {({ selected }) => (
                                         <button
-                                            className={`${selected ? '!bg-info text-white !outline-none' : ''}
-                                                    flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all duration-300 hover:!bg-info hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
+                                            className={`${selected ? 'bg-info! text-white outline-hidden!' : ''}
+                                                    flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all duration-300 hover:bg-info! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
                                         >
                                             <IconUser className="h-6 w-6" />
                                         </button>
@@ -129,8 +129,8 @@ import { Fragment } from 'react';
                                 <Tab as={Fragment}>
                                     {({ selected }) => (
                                         <button
-                                            className={`${selected ? '!bg-info text-white !outline-none' : ''}
-                                                    flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all duration-300 hover:!bg-info hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
+                                            className={`${selected ? 'bg-info! text-white outline-hidden!' : ''}
+                                                    flex h-16 w-16 flex-col items-center justify-center rounded-full bg-[#f1f2f3] transition-all duration-300 hover:bg-info! hover:text-white hover:shadow-[0_5px_15px_0_rgba(0,0,0,0.30)] dark:bg-[#191e3a]`}
                                         >
                                             <IconPhone className="h-6 w-6" />
                                         </button>

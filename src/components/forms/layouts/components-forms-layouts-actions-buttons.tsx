@@ -32,7 +32,7 @@ const ComponentsFormsLayoutsActionsButtons = () => {
         <label htmlFor="actionCpass">Confirm Password:</label>
         <input id="actionCpass" type="password" placeholder="Enter Confirm Password" className="form-input" />
     </div>
-    <button type="submit" className="btn btn-primary !mt-6">
+    <button type="submit" className="btn btn-primary mt-6!">
         Submit
     </button>
 </form>`}
@@ -64,7 +64,7 @@ const ComponentsFormsLayoutsActionsButtons = () => {
                         <label htmlFor="actionCpass">Confirm Password:</label>
                         <input id="actionCpass" type="password" placeholder="Enter Confirm Password" className="form-input" />
                     </div>
-                    <button type="submit" className="btn btn-primary !mt-6">
+                    <button type="submit" className="btn btn-primary mt-6!">
                         Submit
                     </button>
                 </form>

@@ -18,7 +18,7 @@ const [activeTab1, setActiveTab1] = useState<any>(1);
     <ul className="mb-5 grid grid-cols-3">
         <li>
             <div
-                className={\`\${activeTab1 === 1 ? '!bg-primary text-white' : ''}
+                className={\`\${activeTab1 === 1 ? 'bg-primary! text-white' : ''}
                 flex items-center justify-center rounded-full bg-[#f3f2ee] p-2.5 dark:bg-[#1b2e4b]\`}
                 onClick={() => setActiveTab1(1)}
             >
@@ -27,7 +27,7 @@ const [activeTab1, setActiveTab1] = useState<any>(1);
         </li>
         <li>
             <div
-                className={\`\${activeTab1 === 2 ? '!bg-primary text-white' : ''}
+                className={\`\${activeTab1 === 2 ? 'bg-primary! text-white' : ''}
                 flex items-center justify-center rounded-full bg-[#f3f2ee] p-2.5 dark:bg-[#1b2e4b]\`}
                 onClick={() => setActiveTab1(2)}
             >
@@ -36,7 +36,7 @@ const [activeTab1, setActiveTab1] = useState<any>(1);
         </li>
         <li>
             <div
-                className={\`\${activeTab1 === 3 ? '!bg-primary text-white' : ''}
+                className={\`\${activeTab1 === 3 ? 'bg-primary! text-white' : ''}
                 flex items-center justify-center rounded-full bg-[#f3f2ee] p-2.5 dark:bg-[#1b2e4b]\`}
                 onClick={() => setActiveTab1(3)}
             >
@@ -66,7 +66,7 @@ const [activeTab1, setActiveTab1] = useState<any>(1);
                     <ul className="mb-5 grid grid-cols-3">
                         <li>
                             <div
-                                className={`${activeTab1 === 1 ? '!bg-primary text-white' : ''}
+                                className={`${activeTab1 === 1 ? 'bg-primary! text-white' : ''}
                                             flex items-center justify-center rounded-full bg-[#f3f2ee] p-2.5 dark:bg-[#1b2e4b]`}
                                 onClick={() => setActiveTab1(1)}
                             >
@@ -75,7 +75,7 @@ const [activeTab1, setActiveTab1] = useState<any>(1);
                         </li>
                         <li>
                             <div
-                                className={`${activeTab1 === 2 ? '!bg-primary text-white' : ''}
+                                className={`${activeTab1 === 2 ? 'bg-primary! text-white' : ''}
                                             flex items-center justify-center rounded-full bg-[#f3f2ee] p-2.5 dark:bg-[#1b2e4b]`}
                                 onClick={() => setActiveTab1(2)}
                             >
@@ -84,7 +84,7 @@ const [activeTab1, setActiveTab1] = useState<any>(1);
                         </li>
                         <li>
                             <div
-                                className={`${activeTab1 === 3 ? '!bg-primary text-white' : ''}
+                                className={`${activeTab1 === 3 ? 'bg-primary! text-white' : ''}
                                             flex items-center justify-center rounded-full bg-[#f3f2ee] p-2.5 dark:bg-[#1b2e4b]`}
                                 onClick={() => setActiveTab1(3)}
                             >

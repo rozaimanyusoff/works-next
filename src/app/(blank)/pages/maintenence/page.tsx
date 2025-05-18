@@ -23,7 +23,7 @@ const Maintenence = () => {
                             Please visit us again shortly.
                         </p>
                     </div>
-                    <Link href="/" className="btn btn-gradient mx-auto !mt-7 w-max border-0 uppercase shadow-none">
+                    <Link href="/" className="btn btn-gradient mx-auto mt-7! w-max border-0 uppercase shadow-none">
                         Home
                     </Link>
                 </div>

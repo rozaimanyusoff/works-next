@@ -64,7 +64,7 @@ import { useState, Fragment } from 'react';
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="standard_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="standard_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <TransitionChild
                                 as={Fragment}
@@ -123,7 +123,7 @@ import { useState, Fragment } from 'react';
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="tabs_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="tabs_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <TransitionChild
                                 as={Fragment}
@@ -150,9 +150,9 @@ import { useState, Fragment } from 'react';
                                                             type="button"
                                                             className={\`\${
                                                                 selected
-                                                                    ? '!border-white-light !border-b-white  text-primary dark:!border-[#191e3a] dark:!border-b-black !outline-none '
+                                                                    ? 'border-white-light! border-b-white!  text-primary dark:border-[#191e3a]! dark:border-b-black! outline-hidden! '
                                                                     : ''
-                                                            } p-3.5 py-2 -mb-[1px] block border border-transparent hover:text-primary dark:hover:border-b-black\`}
+                                                            } p-3.5 py-2 -mb-px block border border-transparent hover:text-primary dark:hover:border-b-black\`}
                                                         >
                                                             Home
                                                         </button>
@@ -164,9 +164,9 @@ import { useState, Fragment } from 'react';
                                                             type="button"
                                                             className={\`\${
                                                                 selected
-                                                                    ? '!border-white-light !border-b-white  text-primary dark:!border-[#191e3a] dark:!border-b-black !outline-none '
+                                                                    ? 'border-white-light! border-b-white!  text-primary dark:border-[#191e3a]! dark:border-b-black! outline-hidden! '
                                                                     : ''
-                                                            } p-3.5 py-2 -mb-[1px] block border border-transparent hover:text-primary dark:hover:border-b-black\`}
+                                                            } p-3.5 py-2 -mb-px block border border-transparent hover:text-primary dark:hover:border-b-black\`}
                                                         >
                                                             Profile
                                                         </button>
@@ -178,15 +178,15 @@ import { useState, Fragment } from 'react';
                                                             type="button"
                                                             className={\`\${
                                                                 selected
-                                                                    ? '!border-white-light !border-b-white  text-primary dark:!border-[#191e3a] dark:!border-b-black !outline-none '
+                                                                    ? 'border-white-light! border-b-white!  text-primary dark:border-[#191e3a]! dark:border-b-black! outline-hidden! '
                                                                     : ''
-                                                            } p-3.5 py-2 -mb-[1px] block border border-transparent hover:text-primary dark:hover:border-b-black\`}
+                                                            } p-3.5 py-2 -mb-px block border border-transparent hover:text-primary dark:hover:border-b-black\`}
                                                         >
                                                             Contact
                                                         </button>
                                                     )}
                                                 </Tab>
-                                                <Tab className="p-3.5 py-2 -mb-[1px] block pointer-events-none text-white-light dark:text-dark outline-none">Disabled</Tab>
+                                                <Tab className="p-3.5 py-2 -mb-px block pointer-events-none text-white-light dark:text-dark outline-hidden">Disabled</Tab>
                                             </Tab.List>
                                             <Tab.Panels className="text-sm">
                                                 <Tab.Panel>
@@ -270,7 +270,7 @@ import { useState, Fragment } from 'react';
                     >
                         <div className="fixed inset-0"></div>
                     </TransitionChild>
-                    <div id="profile_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="profile_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <TransitionChild
                                 as={Fragment}
@@ -328,7 +328,7 @@ import { useState, Fragment } from 'react';
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="login_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="login_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <TransitionChild
                                 as={Fragment}
@@ -417,7 +417,7 @@ import { useState, Fragment } from 'react';
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="register_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="register_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <TransitionChild
                                 as={Fragment}
@@ -504,7 +504,7 @@ import { useState, Fragment } from 'react';
                     setModal22(false);
                 }}
             >
-                <div id="slider_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                <div id="slider_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                     <div className="flex min-h-screen items-start justify-center px-4">
                         <DialogPanel className="animate__animated animate__fadeIn panel my-8 w-full max-w-xl overflow-hidden rounded-lg border-0 py-1 px-4">
                             <div className="flex items-center justify-between py-5 text-lg font-semibold dark:text-white">
@@ -552,7 +552,7 @@ import { useState, Fragment } from 'react';
                                 </div>
                                 <button
                                     type="button"
-                                    className="swiper-button-prev-ex1 absolute top-1/2 z-[999] grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1  text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:left-2 rtl:right-2"
+                                    className="swiper-button-prev-ex1 absolute top-1/2 z-999 grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1  text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:left-2 rtl:right-2"
                                 >
                                     <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="h-5 w-5 rtl:rotate-180">
                                         <path d="M15 5L9 12L15 19" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -560,7 +560,7 @@ import { useState, Fragment } from 'react';
                                 </button>
                                 <button
                                     type="button"
-                                    className="swiper-button-next-ex1 absolute top-1/2 z-[999] grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1 text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:right-2 rtl:left-2"
+                                    className="swiper-button-next-ex1 absolute top-1/2 z-999 grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1 text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:right-2 rtl:left-2"
                                 >
                                     <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" className="rtl:rotate-180">
                                         <path d="M9 5L15 12L9 19" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
@@ -597,7 +597,7 @@ import { useState, Fragment } from 'react';
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="standard_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="standard_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <TransitionChild
                                             as={Fragment}
@@ -655,7 +655,7 @@ import { useState, Fragment } from 'react';
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="tabs_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="tabs_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <TransitionChild
                                             as={Fragment}
@@ -682,9 +682,9 @@ import { useState, Fragment } from 'react';
                                                                         type="button"
                                                                         className={`${
                                                                             selected
-                                                                                ? '!border-white-light !border-b-white  text-primary !outline-none dark:!border-[#191e3a] dark:!border-b-black '
+                                                                                ? 'border-white-light! border-b-white!  text-primary outline-hidden! dark:border-[#191e3a]! dark:border-b-black! '
                                                                                 : ''
-                                                                        } -mb-[1px] block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
+                                                                        } -mb-px block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
                                                                     >
                                                                         Home
                                                                     </button>
@@ -696,9 +696,9 @@ import { useState, Fragment } from 'react';
                                                                         type="button"
                                                                         className={`${
                                                                             selected
-                                                                                ? '!border-white-light !border-b-white  text-primary !outline-none dark:!border-[#191e3a] dark:!border-b-black '
+                                                                                ? 'border-white-light! border-b-white!  text-primary outline-hidden! dark:border-[#191e3a]! dark:border-b-black! '
                                                                                 : ''
-                                                                        }-mb-[1px] block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
+                                                                        }-mb-px block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
                                                                     >
                                                                         Profile
                                                                     </button>
@@ -710,15 +710,15 @@ import { useState, Fragment } from 'react';
                                                                         type="button"
                                                                         className={`${
                                                                             selected
-                                                                                ? '!border-white-light !border-b-white  text-primary !outline-none dark:!border-[#191e3a] dark:!border-b-black '
+                                                                                ? 'border-white-light! border-b-white!  text-primary outline-hidden! dark:border-[#191e3a]! dark:border-b-black! '
                                                                                 : ''
-                                                                        }-mb-[1px] block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
+                                                                        }-mb-px block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
                                                                     >
                                                                         Contact
                                                                     </button>
                                                                 )}
                                                             </Tab>
-                                                            <Tab className="pointer-events-none -mb-[1px] block p-3.5 py-2 text-white-light outline-none dark:text-dark">Disabled</Tab>
+                                                            <Tab className="pointer-events-none -mb-px block p-3.5 py-2 text-white-light outline-hidden dark:text-dark">Disabled</Tab>
                                                         </Tab.List>
                                                         <Tab.Panels className="text-sm">
                                                             <Tab.Panel>
@@ -802,7 +802,7 @@ import { useState, Fragment } from 'react';
                                 >
                                     <div className="fixed inset-0"></div>
                                 </TransitionChild>
-                                <div id="profile_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="profile_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <TransitionChild
                                             as={Fragment}
@@ -860,7 +860,7 @@ import { useState, Fragment } from 'react';
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="login_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="login_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <TransitionChild
                                             as={Fragment}
@@ -949,7 +949,7 @@ import { useState, Fragment } from 'react';
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="register_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="register_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <TransitionChild
                                             as={Fragment}
@@ -1036,7 +1036,7 @@ import { useState, Fragment } from 'react';
                                 setModal22(false);
                             }}
                         >
-                            <div id="slider_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                            <div id="slider_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                 <div className="flex min-h-screen items-start justify-center px-4">
                                     <DialogPanel className="animate__animated animate__fadeIn panel my-8 w-full max-w-xl overflow-hidden rounded-lg border-0 px-4 py-1">
                                         <div className="flex items-center justify-between py-5 text-lg font-semibold dark:text-white">
@@ -1072,13 +1072,13 @@ import { useState, Fragment } from 'react';
                                             </div>
                                             <button
                                                 type="button"
-                                                className="swiper-button-prev-ex1 absolute top-1/2 z-[999] grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1  text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:left-2 rtl:right-2"
+                                                className="swiper-button-prev-ex1 absolute top-1/2 z-999 grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1  text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:left-2 rtl:right-2"
                                             >
                                                 <IconCaretDown className="h-5 w-5 rotate-90 rtl:-rotate-90" />
                                             </button>
                                             <button
                                                 type="button"
-                                                className="swiper-button-next-ex1 absolute top-1/2 z-[999] grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1 text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:right-2 rtl:left-2"
+                                                className="swiper-button-next-ex1 absolute top-1/2 z-999 grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1 text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:right-2 rtl:left-2"
                                             >
                                                 <IconCaretDown className="h-5 w-5 -rotate-90 rtl:rotate-90" />
                                             </button>

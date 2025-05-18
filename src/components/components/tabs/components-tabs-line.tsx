@@ -23,7 +23,7 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? 'border-b !border-secondary text-secondary !outline-none' : ''} -mb-[1px] flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:!border-secondary hover:text-secondary\`}>
+                    className={\`\${selected ? 'border-b border-secondary! text-secondary outline-hidden!' : ''} -mb-px flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:border-secondary! hover:text-secondary\`}>
                     <svg>...</svg>
                     Home
                 </button>
@@ -32,7 +32,7 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? 'border-b !border-secondary text-secondary !outline-none' : ''} -mb-[1px] flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:!border-secondary hover:text-secondary\`}>
+                    className={\`\${selected ? 'border-b border-secondary! text-secondary outline-hidden!' : ''} -mb-px flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:border-secondary! hover:text-secondary\`}>
                     <svg>...</svg>
                     Profile
                 </button>
@@ -41,7 +41,7 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? 'border-b !border-secondary text-secondary !outline-none' : ''} -mb-[1px] flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:!border-secondary hover:text-secondary\`}>
+                    className={\`\${selected ? 'border-b border-secondary! text-secondary outline-hidden!' : ''} -mb-px flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:border-secondary! hover:text-secondary\`}>
                     <svg>...</svg>
                     Contact
                 </button>
@@ -102,8 +102,8 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? 'border-b !border-secondary text-secondary !outline-none' : ''}
-                                                    -mb-[1px] flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:!border-secondary hover:text-secondary`}
+                                        className={`${selected ? 'border-b border-secondary! text-secondary outline-hidden!' : ''}
+                                                    -mb-px flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:border-secondary! hover:text-secondary`}
                                     >
                                         <IconHome className="ltr:mr-2 rtl:ml-2" />
                                         Home
@@ -113,8 +113,8 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? 'border-b !border-secondary text-secondary !outline-none' : ''}
-                                                -mb-[1px] flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:!border-secondary hover:text-secondary`}
+                                        className={`${selected ? 'border-b border-secondary! text-secondary outline-hidden!' : ''}
+                                                -mb-px flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:border-secondary! hover:text-secondary`}
                                     >
                                         <IconUser className="h-5 w-5 ltr:mr-2 rtl:ml-2" />
                                         Profile
@@ -124,8 +124,8 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? 'border-b !border-secondary text-secondary !outline-none' : ''}
-                                                -mb-[1px] flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:!border-secondary hover:text-secondary`}
+                                        className={`${selected ? 'border-b border-secondary! text-secondary outline-hidden!' : ''}
+                                                -mb-px flex items-center border-transparent p-5 py-3 before:inline-block hover:border-b hover:border-secondary! hover:text-secondary`}
                                     >
                                         <IconPhone className="ltr:mr-2 rtl:ml-2" />
                                         Contact

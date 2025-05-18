@@ -69,8 +69,8 @@ const ComponentsDragndropSortable = () => {
                             {sortable1.map((item) => {
                                 return (
                                     <li key={item.id} className="mb-2.5 cursor-grab">
-                                        <div className="items-md-center flex flex-col rounded-md border border-white-light bg-white px-6 py-3.5 text-center dark:border-dark dark:bg-[#1b2e4b] md:flex-row ltr:md:text-left rtl:md:text-right">
-                                            <div className="ltr:sm:mr-4 rtl:sm:ml-4">
+                                        <div className="items-md-center flex flex-col rounded-md border border-white-light bg-white px-6 py-3.5 text-center dark:border-dark dark:bg-[#1b2e4b] md:flex-row md:ltr:text-left md:rtl:text-right">
+                                            <div className="sm:ltr:mr-4 sm:rtl:ml-4">
                                                 <img alt="avatar" src={`/assets/images/profile-${item.id}.jpeg`} className="mx-auto h-11 w-11 rounded-full" />
                                             </div>
                                             <div className="flex flex-1 flex-col items-center justify-between md:flex-row">
@@ -97,8 +97,8 @@ const ComponentsDragndropSortable = () => {
                             {sortable2.map((item) => {
                                 return (
                                     <li key={item.id} className="mb-2.5 cursor-grab">
-                                        <div className="items-md-center flex flex-col rounded-md border border-white-light bg-white px-6 py-3.5 text-center dark:border-dark dark:bg-[#1b2e4b] md:flex-row ltr:md:text-left rtl:md:text-right">
-                                            <div className="ltr:sm:mr-4 rtl:sm:ml-4">
+                                        <div className="items-md-center flex flex-col rounded-md border border-white-light bg-white px-6 py-3.5 text-center dark:border-dark dark:bg-[#1b2e4b] md:flex-row md:ltr:text-left md:rtl:text-right">
+                                            <div className="sm:ltr:mr-4 sm:rtl:ml-4">
                                                 <img alt="avatar" src={`/assets/images/profile-${item.id}.jpeg`} className="mx-auto h-11 w-11 rounded-full" />
                                             </div>
                                             <div className="flex flex-1 flex-col items-center justify-between md:flex-row">

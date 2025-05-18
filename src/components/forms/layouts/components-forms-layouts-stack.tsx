@@ -19,7 +19,7 @@ const ComponentsFormsLayoutsStack = () => {
             <span className="text-white-dark">Subscribe to weekly newsletter</span>
         </label>
     </div>
-    <button type="submit" className="btn btn-primary !mt-6">
+    <button type="submit" className="btn btn-primary mt-6!">
         Submit
     </button>
 </form>`}
@@ -39,7 +39,7 @@ const ComponentsFormsLayoutsStack = () => {
                             <span className="text-white-dark">Subscribe to weekly newsletter</span>
                         </label>
                     </div>
-                    <button type="submit" className="btn btn-primary !mt-6">
+                    <button type="submit" className="btn btn-primary mt-6!">
                         Submit
                     </button>
                 </form>

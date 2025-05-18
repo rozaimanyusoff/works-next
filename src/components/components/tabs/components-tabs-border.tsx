@@ -23,7 +23,7 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? '!border-white-light !border-b-white text-danger dark:!border-[#191e3a] dark:!border-b-black' : ''} p-3.5 py-2 -mb-[1px] flex items-center border border-transparent hover:text-danger !outline-none transition duration-300\`}>
+                    className={\`\${selected ? 'border-white-light! border-b-white! text-danger dark:border-[#191e3a]! dark:border-b-black!' : ''} p-3.5 py-2 -mb-px flex items-center border border-transparent hover:text-danger outline-hidden! transition duration-300\`}>
                     <svg>...</svg>
                     Home
                 </button>
@@ -32,7 +32,7 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? '!border-white-light !border-b-white text-danger dark:!border-[#191e3a] dark:!border-b-black' : ''} p-3.5 py-2 -mb-[1px] flex items-center border border-transparent hover:text-danger !outline-none transition duration-300\`}>
+                    className={\`\${selected ? 'border-white-light! border-b-white! text-danger dark:border-[#191e3a]! dark:border-b-black!' : ''} p-3.5 py-2 -mb-px flex items-center border border-transparent hover:text-danger outline-hidden! transition duration-300\`}>
                     <svg>...</svg>
                     Profile
                 </button>
@@ -41,7 +41,7 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? '!border-white-light !border-b-white text-danger dark:!border-[#191e3a] dark:!border-b-black' : ''} p-3.5 py-2 -mb-[1px] flex items-center border border-transparent hover:text-danger !outline-none transition duration-300\`}>
+                    className={\`\${selected ? 'border-white-light! border-b-white! text-danger dark:border-[#191e3a]! dark:border-b-black!' : ''} p-3.5 py-2 -mb-px flex items-center border border-transparent hover:text-danger outline-hidden! transition duration-300\`}>
                     <svg>...</svg>
                     Contact
                 </button>
@@ -102,8 +102,8 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? '!border-white-light !border-b-white text-danger dark:!border-[#191e3a] dark:!border-b-black' : ''}
-                                                -mb-[1px] flex items-center border border-transparent p-3.5 py-2 !outline-none transition duration-300 hover:text-danger`}
+                                        className={`${selected ? 'border-white-light! border-b-white! text-danger dark:border-[#191e3a]! dark:border-b-black!' : ''}
+                                                -mb-px flex items-center border border-transparent p-3.5 py-2 outline-hidden! transition duration-300 hover:text-danger`}
                                     >
                                         <IconHome className="ltr:mr-2 rtl:ml-2" />
                                         Home
@@ -113,8 +113,8 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? '!border-white-light !border-b-white text-danger dark:!border-[#191e3a] dark:!border-b-black' : ''}
-                                                -mb-[1px] flex items-center border border-transparent p-3.5 py-2 !outline-none transition duration-300 hover:text-danger`}
+                                        className={`${selected ? 'border-white-light! border-b-white! text-danger dark:border-[#191e3a]! dark:border-b-black!' : ''}
+                                                -mb-px flex items-center border border-transparent p-3.5 py-2 outline-hidden! transition duration-300 hover:text-danger`}
                                     >
                                         <IconUser className="h-5 w-5 ltr:mr-2 rtl:ml-2" />
                                         Profile
@@ -124,8 +124,8 @@ import { Fragment } from 'react';
                             <Tab as={Fragment}>
                                 {({ selected }) => (
                                     <button
-                                        className={`${selected ? '!border-white-light !border-b-white text-danger dark:!border-[#191e3a] dark:!border-b-black' : ''}
-                                                -mb-[1px] flex items-center border border-transparent p-3.5 py-2 !outline-none transition duration-300 hover:text-danger`}
+                                        className={`${selected ? 'border-white-light! border-b-white! text-danger dark:border-[#191e3a]! dark:border-b-black!' : ''}
+                                                -mb-px flex items-center border border-transparent p-3.5 py-2 outline-hidden! transition duration-300 hover:text-danger`}
                                     >
                                         <IconPhone className="ltr:mr-2 rtl:ml-2" />
                                         Contact

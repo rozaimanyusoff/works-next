@@ -21,9 +21,9 @@ import { Fragment } from 'react';
             <Tab.List className="mt-3 flex flex-wrap border-b border-white-light dark:border-[#191e3a]">
                 <Tab as={Fragment}>
                     {({ selected }) => (
-                        <div className="flex-auto text-center !outline-none">
+                        <div className="flex-auto text-center outline-hidden!">
                             <button
-                                className={\`\${selected ? '!border-white-light !border-b-white !outline-none dark:!border-[#191e3a] dark:!border-b-black' : ''} w-full -mb-[1px] block border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black\`}>
+                                className={\`\${selected ? 'border-white-light! border-b-white! outline-hidden! dark:border-[#191e3a]! dark:border-b-black!' : ''} w-full -mb-px block border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black\`}>
                                 Home
                             </button>
                         </div>
@@ -32,7 +32,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                        className={\`\${selected ? '!border-white-light !border-b-white !outline-none dark:!border-[#191e3a] dark:!border-b-black' : ''} w-full -mb-[1px] block border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black\`}>
+                        className={\`\${selected ? 'border-white-light! border-b-white! outline-hidden! dark:border-[#191e3a]! dark:border-b-black!' : ''} w-full -mb-px block border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black\`}>
                             Profile
                         </button>
                     )}
@@ -40,7 +40,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                        className={\`\${selected ? '!border-white-light !border-b-white !outline-none dark:!border-[#191e3a] dark:!border-b-black' : ''} w-full -mb-[1px] block border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black\`}>
+                        className={\`\${selected ? 'border-white-light! border-b-white! outline-hidden! dark:border-[#191e3a]! dark:border-b-black!' : ''} w-full -mb-px block border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black\`}>
                             Contact
                         </button>
                     )}
@@ -101,11 +101,11 @@ import { Fragment } from 'react';
                         <Tab.List className="mt-3 flex flex-wrap border-b border-white-light dark:border-[#191e3a]">
                             <Tab as={Fragment}>
                                 {({ selected }) => (
-                                    <div className="flex-auto text-center !outline-none">
+                                    <div className="flex-auto text-center outline-hidden!">
                                         <button
                                             className={`${
-                                                selected ? '!border-white-light !border-b-white !outline-none dark:!border-[#191e3a] dark:!border-b-black' : ''
-                                            } -mb-[1px] block w-full border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black`}
+                                                selected ? 'border-white-light! border-b-white! outline-hidden! dark:border-[#191e3a]! dark:border-b-black!' : ''
+                                            } -mb-px block w-full border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black`}
                                         >
                                             Home
                                         </button>
@@ -114,11 +114,11 @@ import { Fragment } from 'react';
                             </Tab>
                             <Tab as={Fragment}>
                                 {({ selected }) => (
-                                    <div className="flex-auto text-center !outline-none">
+                                    <div className="flex-auto text-center outline-hidden!">
                                         <button
                                             className={`${
-                                                selected ? '!border-white-light !border-b-white !outline-none dark:!border-[#191e3a] dark:!border-b-black' : ''
-                                            } -mb-[1px] block w-full border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black`}
+                                                selected ? 'border-white-light! border-b-white! outline-hidden! dark:border-[#191e3a]! dark:border-b-black!' : ''
+                                            } -mb-px block w-full border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black`}
                                         >
                                             Profile
                                         </button>
@@ -127,11 +127,11 @@ import { Fragment } from 'react';
                             </Tab>
                             <Tab as={Fragment}>
                                 {({ selected }) => (
-                                    <div className="flex-auto text-center !outline-none">
+                                    <div className="flex-auto text-center outline-hidden!">
                                         <button
                                             className={`${
-                                                selected ? '!border-white-light !border-b-white !outline-none dark:!border-[#191e3a] dark:!border-b-black ' : ''
-                                            } -mb-[1px] block w-full border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black`}
+                                                selected ? 'border-white-light! border-b-white! outline-hidden! dark:border-[#191e3a]! dark:border-b-black! ' : ''
+                                            } -mb-px block w-full border border-transparent p-3.5 py-2 hover:border-white-light hover:border-b-white dark:hover:border-[#191e3a] dark:hover:border-b-black`}
                                         >
                                             Contact
                                         </button>

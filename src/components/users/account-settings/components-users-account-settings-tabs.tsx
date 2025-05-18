@@ -25,7 +25,7 @@ const ComponentsUsersAccountSettingsTabs = () => {
                     <li className="inline-block">
                         <button
                             onClick={() => toggleTabs('home')}
-                            className={`flex gap-2 border-b border-transparent p-4 hover:border-primary hover:text-primary ${tabs === 'home' ? '!border-primary text-primary' : ''}`}
+                            className={`flex gap-2 border-b border-transparent p-4 hover:border-primary hover:text-primary ${tabs === 'home' ? 'border-primary! text-primary' : ''}`}
                         >
                             <IconHome />
                             Home
@@ -34,7 +34,7 @@ const ComponentsUsersAccountSettingsTabs = () => {
                     <li className="inline-block">
                         <button
                             onClick={() => toggleTabs('payment-details')}
-                            className={`flex gap-2 border-b border-transparent p-4 hover:border-primary hover:text-primary ${tabs === 'payment-details' ? '!border-primary text-primary' : ''}`}
+                            className={`flex gap-2 border-b border-transparent p-4 hover:border-primary hover:text-primary ${tabs === 'payment-details' ? 'border-primary! text-primary' : ''}`}
                         >
                             <IconDollarSignCircle />
                             Payment Details
@@ -43,7 +43,7 @@ const ComponentsUsersAccountSettingsTabs = () => {
                     <li className="inline-block">
                         <button
                             onClick={() => toggleTabs('preferences')}
-                            className={`flex gap-2 border-b border-transparent p-4 hover:border-primary hover:text-primary ${tabs === 'preferences' ? '!border-primary text-primary' : ''}`}
+                            className={`flex gap-2 border-b border-transparent p-4 hover:border-primary hover:text-primary ${tabs === 'preferences' ? 'border-primary! text-primary' : ''}`}
                         >
                             <IconUser className="h-5 w-5" />
                             Preferences
@@ -52,7 +52,7 @@ const ComponentsUsersAccountSettingsTabs = () => {
                     <li className="inline-block">
                         <button
                             onClick={() => toggleTabs('danger-zone')}
-                            className={`flex gap-2 border-b border-transparent p-4 hover:border-primary hover:text-primary ${tabs === 'danger-zone' ? '!border-primary text-primary' : ''}`}
+                            className={`flex gap-2 border-b border-transparent p-4 hover:border-primary hover:text-primary ${tabs === 'danger-zone' ? 'border-primary! text-primary' : ''}`}
                         >
                             <IconPhone />
                             Danger Zone
@@ -65,7 +65,7 @@ const ComponentsUsersAccountSettingsTabs = () => {
                     <form className="mb-5 rounded-md border border-[#ebedf2] bg-white p-4 dark:border-[#191e3a] dark:bg-black">
                         <h6 className="mb-5 text-lg font-bold">General Information</h6>
                         <div className="flex flex-col sm:flex-row">
-                            <div className="mb-5 w-full sm:w-2/12 ltr:sm:mr-4 rtl:sm:ml-4">
+                            <div className="mb-5 w-full sm:w-2/12 sm:ltr:mr-4 sm:rtl:ml-4">
                                 <img src="/assets//images/profile-34.jpeg" alt="img" className="mx-auto h-20 w-20 rounded-full object-cover md:h-32 md:w-32" />
                             </div>
                             <div className="grid flex-1 grid-cols-1 gap-5 sm:grid-cols-2">
@@ -128,25 +128,25 @@ const ComponentsUsersAccountSettingsTabs = () => {
                         <h6 className="mb-5 text-lg font-bold">Social</h6>
                         <div className="grid grid-cols-1 gap-5 sm:grid-cols-2">
                             <div className="flex">
-                                <div className="flex items-center justify-center rounded bg-[#eee] px-3 font-semibold ltr:mr-2 rtl:ml-2 dark:bg-[#1b2e4b]">
+                                <div className="flex items-center justify-center rounded-sm bg-[#eee] px-3 font-semibold ltr:mr-2 rtl:ml-2 dark:bg-[#1b2e4b]">
                                     <IconLinkedin className="h-5 w-5" />
                                 </div>
                                 <input type="text" placeholder="jimmy_turner" className="form-input" />
                             </div>
                             <div className="flex">
-                                <div className="flex items-center justify-center rounded bg-[#eee] px-3 font-semibold ltr:mr-2 rtl:ml-2 dark:bg-[#1b2e4b]">
+                                <div className="flex items-center justify-center rounded-sm bg-[#eee] px-3 font-semibold ltr:mr-2 rtl:ml-2 dark:bg-[#1b2e4b]">
                                     <IconTwitter className="h-5 w-5" />
                                 </div>
                                 <input type="text" placeholder="jimmy_turner" className="form-input" />
                             </div>
                             <div className="flex">
-                                <div className="flex items-center justify-center rounded bg-[#eee] px-3 font-semibold ltr:mr-2 rtl:ml-2 dark:bg-[#1b2e4b]">
+                                <div className="flex items-center justify-center rounded-sm bg-[#eee] px-3 font-semibold ltr:mr-2 rtl:ml-2 dark:bg-[#1b2e4b]">
                                     <IconFacebook className="h-5 w-5" />
                                 </div>
                                 <input type="text" placeholder="jimmy_turner" className="form-input" />
                             </div>
                             <div className="flex">
-                                <div className="flex items-center justify-center rounded bg-[#eee] px-3 font-semibold ltr:mr-2 rtl:ml-2 dark:bg-[#1b2e4b]">
+                                <div className="flex items-center justify-center rounded-sm bg-[#eee] px-3 font-semibold ltr:mr-2 rtl:ml-2 dark:bg-[#1b2e4b]">
                                     <IconGithub />
                                 </div>
                                 <input type="text" placeholder="jimmy_turner" className="form-input" />

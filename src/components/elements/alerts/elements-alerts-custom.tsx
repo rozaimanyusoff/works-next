@@ -7,7 +7,7 @@ const ElementsAlertsCustom = () => {
     return (
         <PanelCodeHighlight
             title="Custom Alerts"
-            codeHighlight={`<div className="flex items-center p-3.5 rounded text-white bg-info">
+            codeHighlight={`<div className="flex items-center p-3.5 rounded-sm text-white bg-info">
     <span className="text-white w-6 h-6 ltr:mr-4 rtl:ml-4">
         <svg>...</svg>
     </span>
@@ -22,7 +22,7 @@ const ElementsAlertsCustom = () => {
     </button>
 </div>
 
-<div className="flex items-center p-3.5 rounded text-white bg-gradient-to-r from-[#BD194D] to-[#004fe6]">
+<div className="flex items-center p-3.5 rounded-sm text-white bg-linear-to-r from-[#BD194D] to-[#004fe6]">
     <span className="ltr:pr-2 rtl:pl-2">
         <strong className="ltr:mr-1 rtl:ml-1">Warning!</strong>Lorem Ipsum is simply dummy text of the printing.
     </span>
@@ -31,7 +31,7 @@ const ElementsAlertsCustom = () => {
     </button>
 </div>
 
-<div className="flex items-center p-3.5 rounded text-white bg-no-repeat bg-center bg-cover" style={{ backgroundImage: \`url("/assets/images/menu-heade.jpg")\`}}>
+<div className="flex items-center p-3.5 rounded-sm text-white bg-no-repeat bg-center bg-cover" style={{ backgroundImage: \`url("/assets/images/menu-heade.jpg")\`}}>
     <span className="ltr:pr-2 rtl:pl-2">
         <strong className="ltr:mr-1 rtl:ml-1">Warning!</strong>Lorem Ipsum is simply dummy text of the printing.
     </span>
@@ -41,7 +41,7 @@ const ElementsAlertsCustom = () => {
 </div>`}
         >
             <div className="mb-5 grid gap-5 lg:grid-cols-2">
-                <div className="flex items-center rounded bg-info p-3.5 text-white">
+                <div className="flex items-center rounded-sm bg-info p-3.5 text-white">
                     <span className="h-6 w-6 text-white ltr:mr-4 rtl:ml-4">
                         <IconBellBing className="h-6 w-6" />
                     </span>
@@ -56,7 +56,7 @@ const ElementsAlertsCustom = () => {
                     </button>
                 </div>
 
-                <div className="flex items-center rounded bg-gradient-to-r from-[#BD194D] to-[#004fe6] p-3.5 text-white">
+                <div className="flex items-center rounded-sm bg-linear-to-r from-[#BD194D] to-[#004fe6] p-3.5 text-white">
                     <span className="ltr:pr-2 rtl:pl-2">
                         <strong className="ltr:mr-1 rtl:ml-1">Warning!</strong>Lorem Ipsum is simply dummy text of the printing.
                     </span>
@@ -66,7 +66,7 @@ const ElementsAlertsCustom = () => {
                 </div>
 
                 <div
-                    className="flex items-center rounded bg-cover bg-center bg-no-repeat p-3.5 text-white"
+                    className="flex items-center rounded-sm bg-cover bg-center bg-no-repeat p-3.5 text-white"
                     style={{
                         backgroundImage: `url("/assets/images/menu-heade.jpg")`,
                     }}

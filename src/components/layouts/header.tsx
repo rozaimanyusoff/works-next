@@ -174,7 +174,7 @@ const Header = () => {
 
     return (
         <header className={`z-40 ${themeConfig.semidark && themeConfig.menu === 'horizontal' ? 'dark' : ''}`}>
-            <div className="shadow-sm">
+            <div className="shadow-xs">
                 <div className="relative flex w-full items-center bg-white px-5 py-2.5 dark:bg-black">
                     <div className="horizontal-logo flex items-center justify-between ltr:mr-2 rtl:ml-2 lg:hidden">
                         <Link href="/" className="main-logo flex shrink-0 items-center">
@@ -190,16 +190,16 @@ const Header = () => {
                         </button>
                     </div>
 
-                    <div className="flex items-center justify-end space-x-1.5 ltr:ml-auto rtl:mr-auto rtl:space-x-reverse dark:text-[#d0d2d6] sm:flex-1 ltr:sm:ml-0 sm:rtl:mr-0 lg:space-x-2">
+                    <div className="flex items-center justify-end space-x-1.5 ltr:ml-auto rtl:mr-auto rtl:space-x-reverse dark:text-[#d0d2d6] sm:flex-1 sm:ltr:ml-0 sm:rtl:mr-0 lg:space-x-2">
                         {/* <div className="sm:ltr:mr-auto sm:rtl:ml-auto">
                             <form
-                                className={`${search && '!block'} absolute inset-x-0 top-1/2 z-10 mx-4 hidden -translate-y-1/2 sm:relative sm:top-0 sm:mx-0 sm:block sm:translate-y-0`}
+                                className={`${search && 'block!'} absolute inset-x-0 top-1/2 z-10 mx-4 hidden -translate-y-1/2 sm:relative sm:top-0 sm:mx-0 sm:block sm:translate-y-0`}
                                 onSubmit={() => setSearch(false)}
                             >
                                 <div className="relative">
                                     <input
                                         type="text"
-                                        className="peer form-input bg-gray-100 placeholder:tracking-widest ltr:pl-9 ltr:pr-9 rtl:pl-9 rtl:pr-9 sm:bg-transparent ltr:sm:pr-4 rtl:sm:pl-4"
+                                        className="peer form-input bg-gray-100 placeholder:tracking-widest ltr:pl-9 ltr:pr-9 rtl:pl-9 rtl:pr-9 sm:bg-transparent sm:ltr:pr-4 sm:rtl:pl-4"
                                         placeholder="Search..."
                                     />
                                     <button type="button" className="absolute inset-0 h-9 w-9 appearance-none peer-focus:text-primary ltr:right-auto rtl:left-auto">
@@ -267,7 +267,7 @@ const Header = () => {
                                     </span>
                                 }
                             >
-                                <ul className="w-[300px] divide-y !py-0 text-dark dark:divide-white/10 dark:text-white-dark sm:w-[350px]">
+                                <ul className="w-[300px] divide-y py-0! text-dark dark:divide-white/10 dark:text-white-dark sm:w-[350px]">
                                     <li onClick={(e) => e.stopPropagation()}>
                                         <div className="flex items-center justify-between px-4 py-2 font-semibold">
                                             <h4 className="text-lg">Notification</h4>
@@ -279,7 +279,7 @@ const Header = () => {
                                             {notifications.map((notification: Notification) => (
                                                 <li key={notification.id} className="dark:text-white-light/90" onClick={(e) => e.stopPropagation()}>
                                                     <div className="group flex items-center px-4 py-2">
-                                                        <div className="grid place-content-center rounded">
+                                                        <div className="grid place-content-center rounded-sm">
                                                             <div className="relative h-12 w-12">
                                                                 <img className="h-12 w-12 rounded-full object-cover" alt="profile" src={`/assets/images/${notification.profile}`} />
                                                                 <span className="absolute bottom-0 right-[6px] block h-2 w-2 rounded-full bg-success"></span>
@@ -313,7 +313,7 @@ const Header = () => {
                                         </>
                                     ) : (
                                         <li onClick={(e) => e.stopPropagation()}>
-                                            <button type="button" className="!grid min-h-[200px] place-content-center text-lg hover:!bg-transparent">
+                                            <button type="button" className="!grid min-h-[200px] place-content-center text-lg hover:bg-transparent!">
                                                 <div className="mx-auto mb-4 rounded-full ring-4 ring-primary/30">
                                                     <IconInfoCircle fill={true} className="h-10 w-10 text-primary" />
                                                 </div>
@@ -331,7 +331,7 @@ const Header = () => {
                                 btnClassName="relative group block"
                                 button={<img className="h-9 w-9 rounded-full object-cover saturate-50 group-hover:saturate-100" src="/assets/images/user-profile.jpeg" alt="userProfile" />}
                             >
-                                <ul className="w-[230px] !py-0 font-semibold text-dark dark:text-white-dark dark:text-white-light/90">
+                                <ul className="w-[230px] py-0! font-semibold text-dark dark:text-white-dark dark:text-white-light/90">
                                     <li>
                                         <div className="flex items-center px-4 py-4">
                                             <img className="h-10 w-10 rounded-md object-cover" src="/assets/images/user-profile.jpeg" alt="userProfile" />
@@ -364,7 +364,7 @@ const Header = () => {
                                     <li className="border-t border-white-light dark:border-white-light/10">
                                         <button
                                             onClick={handleLogout}
-                                            className="!py-3 text-danger flex items-center"
+                                            className="py-3! text-danger flex items-center"
                                         >
                                             <IconLogout className="h-4.5 w-4.5 shrink-0 rotate-90 ltr:mr-2 rtl:ml-2" />
                                             Sign Out
@@ -406,7 +406,7 @@ const Header = () => {
                                                                     <IconCaretDown />
                                                                 </div>
                                                             </div>
-                                                            <ul className="absolute top-0 ltr:left-[95%] rtl:right-[95%] min-w-[180px] bg-stone-100 z-[10] text-dark dark:text-white-dark dark:bg-[#1b2e4b] shadow-2xl hidden group-hover:block">
+                                                            <ul className="absolute top-0 ltr:left-[95%] rtl:right-[95%] min-w-[180px] bg-stone-100 z-10 text-dark dark:text-white-dark dark:bg-[#1b2e4b] shadow-2xl hidden group-hover:block">
                                                                 {item.children
                                                                     ?.sort((a: any, b: any) => a.position - b.position)
                                                                     .map((child: any) => (
@@ -419,7 +419,7 @@ const Header = () => {
                                                                                             <IconCaretDown />
                                                                                         </div>
                                                                                     </div>
-                                                                                    <ul className="absolute top-0 ltr:left-[95%] rtl:right-[95%] min-w-[180px] bg-white-light z-[10] text-dark dark:text-white-dark dark:bg-[#1b2e4b] shadow-2xl py-2 hidden group-hover:block">
+                                                                                    <ul className="absolute top-0 ltr:left-[95%] rtl:right-[95%] min-w-[180px] bg-white-light z-10 text-dark dark:text-white-dark dark:bg-[#1b2e4b] shadow-2xl py-2 hidden group-hover:block">
                                                                                         {child.children
                                                                                             ?.sort((a: any, b: any) => a.position - b.position)
                                                                                             .map((subChild: any) => (

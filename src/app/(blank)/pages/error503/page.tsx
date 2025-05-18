@@ -14,7 +14,7 @@ const Error503 = () => {
                     <img src="/assets/images/error/503-dark.svg" alt="503" className="dark-img mx-auto w-full max-w-xs object-cover md:max-w-xl" />
                     <img src="/assets/images/error/503-light.svg" alt="503" className="light-img mx-auto w-full max-w-xs object-cover md:max-w-xl" />
                     <p className="mt-5 text-base dark:text-white">Service Unavailable!</p>
-                    <Link href="/" className="btn btn-gradient mx-auto !mt-7 w-max border-0 uppercase shadow-none">
+                    <Link href="/" className="btn btn-gradient mx-auto mt-7! w-max border-0 uppercase shadow-none">
                         Home
                     </Link>
                 </div>

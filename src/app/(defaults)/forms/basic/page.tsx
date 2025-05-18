@@ -205,11 +205,11 @@ const Basic = () => {
         <input
             id="ctnFile"
             type="file"
-            className="form-input file:py-2 file:px-4 file:border-0 file:font-semibold p-0 file:bg-primary/90 ltr:file:mr-5 rtl:file-ml-5 file:text-white file:hover:bg-primary"
+            className="form-input file:py-2 file:px-4 file:border-0 file:font-semibold p-0 file:bg-primary/90 file:ltr:mr-5 rtl:file-ml-5 file:text-white file:hover:bg-primary"
             required
         />
     </div>
-    <button type="submit" className="btn btn-primary !mt-6">
+    <button type="submit" className="btn btn-primary mt-6!">
         Submit
     </button>
 </form>`}
@@ -248,11 +248,11 @@ const Basic = () => {
                                 <input
                                     id="ctnFile"
                                     type="file"
-                                    className="rtl:file-ml-5 form-input p-0 file:border-0 file:bg-primary/90 file:px-4 file:py-2 file:font-semibold file:text-white file:hover:bg-primary ltr:file:mr-5"
+                                    className="rtl:file-ml-5 form-input p-0 file:border-0 file:bg-primary/90 file:px-4 file:py-2 file:font-semibold file:text-white file:hover:bg-primary file:ltr:mr-5"
                                     required
                                 />
                             </div>
-                            <button type="submit" className="btn btn-primary !mt-6">
+                            <button type="submit" className="btn btn-primary mt-6!">
                                 Submit
                             </button>
                         </form>
@@ -321,7 +321,7 @@ const Basic = () => {
         <label htmlFor="groupLname">Last Name</label>
         <input id="groupLname" type="text" placeholder="Enter Last Name" className="form-input" />
     </div>
-    <button type="button" className="btn btn-primary !mt-6">
+    <button type="button" className="btn btn-primary mt-6!">
         Submit
     </button>
 </form>`}
@@ -336,7 +336,7 @@ const Basic = () => {
                                 <label htmlFor="groupLname">Last Name</label>
                                 <input id="groupLname" type="text" placeholder="Enter Last Name" className="form-input" />
                             </div>
-                            <button type="button" className="btn btn-primary !mt-6">
+                            <button type="button" className="btn btn-primary mt-6!">
                                 Submit
                             </button>
                         </form>
@@ -593,7 +593,7 @@ const Basic = () => {
                 {/*  Readonly  */}
                 <PanelCodeHighlight
                     title="Input Readonly"
-                    className="lg:row-start-[14]"
+                    className="lg:row-start-14"
                     codeHighlight={`<form>
     <div>
         <input type="text" placeholder="Readonly input here…" className="form-input disabled:pointer-events-none" readOnly />
@@ -642,7 +642,7 @@ const Basic = () => {
             <span className="text-white-dark">Can't check this</span>
         </label>
     </div>
-    <button type="submit" className="btn btn-primary !mt-6 disabled:pointer-events-none disabled:opacity-60" disabled>
+    <button type="submit" className="btn btn-primary mt-6! disabled:pointer-events-none disabled:opacity-60" disabled>
         Submit
     </button>
 </form>`}
@@ -678,7 +678,7 @@ const Basic = () => {
                                     <span className="text-white-dark">{`Can't check this`}</span>
                                 </label>
                             </div>
-                            <button type="submit" className="btn btn-primary !mt-6 disabled:pointer-events-none disabled:opacity-60" disabled>
+                            <button type="submit" className="btn btn-primary mt-6! disabled:pointer-events-none disabled:opacity-60" disabled>
                                 Submit
                             </button>
                         </form>
@@ -810,7 +810,7 @@ const Basic = () => {
                     title="Multiselect"
                     codeHighlight={`<form>
     <div>
-        <select size={4} className="form-multiselect multiple text-white-dark !bg-none">
+        <select size={4} className="form-multiselect multiple text-white-dark bg-none!">
             <option>Open this select menu</option>
             <option>One</option>
             <option>Two</option>
@@ -824,7 +824,7 @@ const Basic = () => {
                     <div className="mb-5">
                         <form>
                             <div>
-                                <select size={4} multiple className="form-multiselect !bg-none text-white-dark">
+                                <select size={4} multiple className="form-multiselect bg-none! text-white-dark">
                                     <option>Open this select menu</option>
                                     <option>One</option>
                                     <option>Two</option>

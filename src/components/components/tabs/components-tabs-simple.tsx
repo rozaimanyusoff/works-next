@@ -20,8 +20,8 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? '!border-white-light !border-b-white  text-primary !outline-none dark:!border-[#191e3a] dark:!border-b-black' : ''}
-                    dark:hover:border-b-black -mb-[1px] block border border-transparent p-3.5 py-2 hover:text-primary\`}>
+                    className={\`\${selected ? 'border-white-light! border-b-white!  text-primary outline-hidden! dark:border-[#191e3a]! dark:border-b-black!' : ''}
+                    dark:hover:border-b-black -mb-px block border border-transparent p-3.5 py-2 hover:text-primary\`}>
                     Home
                 </button>
             )}
@@ -29,8 +29,8 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? '!border-white-light !border-b-white  text-primary !outline-none dark:!border-[#191e3a] dark:!border-b-black' : ''}
-                    dark:hover:border-b-black -mb-[1px] block border border-transparent p-3.5 py-2 hover:text-primary\`}>
+                    className={\`\${selected ? 'border-white-light! border-b-white!  text-primary outline-hidden! dark:border-[#191e3a]! dark:border-b-black!' : ''}
+                    dark:hover:border-b-black -mb-px block border border-transparent p-3.5 py-2 hover:text-primary\`}>
                     Profile
                 </button>
             )}
@@ -38,13 +38,13 @@ import { Fragment } from 'react';
         <Tab as={Fragment}>
             {({ selected }) => (
                 <button
-                    className={\`\${selected ? '!border-white-light !border-b-white  text-primary !outline-none dark:!border-[#191e3a] dark:!border-b-black' : ''}
-                    dark:hover:border-b-black -mb-[1px] block border border-transparent p-3.5 py-2 hover:text-primary\`}>
+                    className={\`\${selected ? 'border-white-light! border-b-white!  text-primary outline-hidden! dark:border-[#191e3a]! dark:border-b-black!' : ''}
+                    dark:hover:border-b-black -mb-px block border border-transparent p-3.5 py-2 hover:text-primary\`}>
                     Contact
                 </button>
             )}
         </Tab>
-        <Tab className="pointer-events-none -mb-[1px] block p-3.5 py-2 text-white-light outline-none dark:text-dark">Disabled</Tab>
+        <Tab className="pointer-events-none -mb-px block p-3.5 py-2 text-white-light outline-hidden dark:text-dark">Disabled</Tab>
     </Tab.List>
 </Tab.Group>
 <Tab.Panels>
@@ -102,8 +102,8 @@ import { Fragment } from 'react';
                                 {({ selected }) => (
                                     <button
                                         className={`${
-                                            selected ? '!border-white-light !border-b-white  text-primary !outline-none dark:!border-[#191e3a] dark:!border-b-black ' : ''
-                                        } -mb-[1px] block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
+                                            selected ? 'border-white-light! border-b-white!  text-primary outline-hidden! dark:border-[#191e3a]! dark:border-b-black! ' : ''
+                                        } -mb-px block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
                                     >
                                         Home
                                     </button>
@@ -113,8 +113,8 @@ import { Fragment } from 'react';
                                 {({ selected }) => (
                                     <button
                                         className={`${
-                                            selected ? '!border-white-light !border-b-white  text-primary !outline-none dark:!border-[#191e3a] dark:!border-b-black ' : ''
-                                        } -mb-[1px] block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
+                                            selected ? 'border-white-light! border-b-white!  text-primary outline-hidden! dark:border-[#191e3a]! dark:border-b-black! ' : ''
+                                        } -mb-px block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
                                     >
                                         Profile
                                     </button>
@@ -124,14 +124,14 @@ import { Fragment } from 'react';
                                 {({ selected }) => (
                                     <button
                                         className={`${
-                                            selected ? '!border-white-light !border-b-white  text-primary !outline-none dark:!border-[#191e3a] dark:!border-b-black ' : ''
-                                        } -mb-[1px] block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
+                                            selected ? 'border-white-light! border-b-white!  text-primary outline-hidden! dark:border-[#191e3a]! dark:border-b-black! ' : ''
+                                        } -mb-px block border border-transparent p-3.5 py-2 hover:text-primary dark:hover:border-b-black`}
                                     >
                                         Contact
                                     </button>
                                 )}
                             </Tab>
-                            <Tab className="pointer-events-none -mb-[1px] block p-3.5 py-2 text-white-light outline-none dark:text-dark">Disabled</Tab>
+                            <Tab className="pointer-events-none -mb-px block p-3.5 py-2 text-white-light outline-hidden dark:text-dark">Disabled</Tab>
                         </Tab.List>
                         <Tab.Panels>
                             <Tab.Panel>

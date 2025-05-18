@@ -27,7 +27,7 @@ const ComponentsDragndropGrid = () => {
                     <ReactSortable list={gridDrag} setList={setGridDrag} animation={200} className="xs grid grid-cols-2 place-items-center gap-8 sm:grid-cols-4 md:grid-cols-8">
                         {gridDrag.map((item) => {
                             return (
-                                <div key={item.id} className="flex h-24 w-24 cursor-grab items-center justify-center rounded-md border border-white-light font-semibold shadow dark:border-dark">
+                                <div key={item.id} className="flex h-24 w-24 cursor-grab items-center justify-center rounded-md border border-white-light font-semibold shadow-sm dark:border-dark">
                                     {item.name}
                                 </div>
                             );

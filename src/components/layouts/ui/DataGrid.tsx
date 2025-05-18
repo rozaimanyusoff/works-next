@@ -3,32 +3,32 @@ const gridContainer = "relative rounded-none w-full transition-all duration-300 
 const gridHeader = "overflow-x-auto border border-b-0 dark:border-dark rounded-none";
 
 /* Input Filter */
-const inputFilterWrapper = "flex-grow";
-const inputFilterInput = "form-input bg-transparent/10 placeholder:text-base dark:placeholder:text-dark-light p-2 border rounded-sm w-full";
+const inputFilterWrapper = "grow";
+const inputFilterInput = "form-input bg-transparent/10 placeholder:text-base dark:placeholder:text-dark-light p-2 border rounded-xs w-full";
 
 /* Column Visibility Toggle */
-const columnToggleButton = "form-select bg-transparent/10 placeholder:text-base placeholder:text-gray-600 dark:placeholder:text-dark-light p-2 border rounded-sm text-left truncate min-w-[150px]";
+const columnToggleButton = "form-select bg-transparent/10 placeholder:text-base placeholder:text-gray-600 dark:placeholder:text-dark-light p-2 border rounded-xs text-left truncate min-w-[150px]";
 const columnToggleItem = "block text-base cursor-pointer px-1 py-0.5 hover:bg-gray-100 dark:hover:bg-amber-600";
 
 /* Export Dropdown */
-const exportButton = "form-select bg-transparent/10 placeholder:text-base p-2 border rounded-sm text-left truncate min-w-[120px]";
+const exportButton = "form-select bg-transparent/10 placeholder:text-base p-2 border rounded-xs text-left truncate min-w-[120px]";
 const exportMenuItem = "block w-full text-left text-sm px-2 py-1 hover:bg-gray-300 dark:hover:bg-amber-600";
 
 /* Table Structure */
 const tableWrapper = "w-full border-collapse min-w-full whitespace-nowrap";
-const theadWrapper = "bg-gray-300 dark:!bg-slate-900 dark:text-dark-light sticky top-0 z-10";
+const theadWrapper = "bg-gray-300 dark:bg-slate-900! dark:text-dark-light sticky top-0 z-10";
 const theadTh = "relative text-left px-4 py-2 border-b-0 dark:border-dark cursor-pointer select-none";
 const columnResizer = "column-resizer absolute right-0 top-0 h-3/4 w-[4px] my-1 rounded-t-full rounded-b-full cursor-col-resize bg-gray-200 hover:bg-gray-500 transition";
 
 /* Column Filters */
 const theadFilterRow = "bg-gray-300 dark:bg-slate-800 text-sm border-b border-gray-200 dark:border-slate-700";
-const filterCellInput = "w-full form-input max-w-full px-1 py-0.5 border text-xs rounded-sm dark:placeholder:text-dark-light";
-const filterCellSelect = "w-full form-select max-w-full px-1 py-0.5 border capitalize text-sm rounded-sm truncate dark:text-dark-light";
+const filterCellInput = "w-full form-input max-w-full px-1 py-0.5 border text-xs rounded-xs dark:placeholder:text-dark-light";
+const filterCellSelect = "w-full form-select max-w-full px-1 py-0.5 border capitalize text-sm rounded-xs truncate dark:text-dark-light";
 
 /* Row Styling */
-const rowSelected = "!bg-amber-300 dark:!bg-amber-700";
-const rowDoubleClicked = "!bg-amber-200 dark:!bg-amber-800";
-const rowExpanded = "!bg-amber-200 dark:!bg-amber-600"; // Expanded row background
+const rowSelected = "bg-amber-300! dark:bg-amber-700!";
+const rowDoubleClicked = "bg-amber-200! dark:bg-amber-800!";
+const rowExpanded = "bg-amber-200! dark:bg-amber-600!"; // Expanded row background
 const rowHover = "hover:bg-amber-100 dark:hover:bg-amber-600 dark:hover:text-white";
 const expandedCellBorder = "border-amber-200 dark:border-amber-600";
 const defaultCellBorder = "dark:border-dark";
@@ -51,7 +51,7 @@ const expandedRowContent = "bg-amber-200 dark:bg-amber-600 border-x border-b bor
 
 /* Pagination */
 const paginationContainer = "bg-gray-100 border border-t-0 dark:bg-slate-800 dark:border-dark p-2 space-y-3";
-const paginationButton = "px-3 py-1 border rounded disabled:opacity-50";
+const paginationButton = "px-3 py-1 border rounded-sm disabled:opacity-50";
 const paginationButtonActive = "bg-blue-600 text-white dark:text-danger-light font-semibold";
 
 /*
@@ -494,7 +494,7 @@ const CustomDataGridInner = <T,>({
                         const exportDropdown = openExportDropdown && exportDropdownRef.current
                             ? createPortal(
                                 <div
-                                    className="absolute z-50 bg-stone-100 dark:bg-slate-800 border border-gray-300 dark:border-gray-600 mt-1 w-full min-w-20 rounded-sm shadow-xl"
+                                    className="absolute z-50 bg-stone-100 dark:bg-slate-800 border border-gray-300 dark:border-gray-600 mt-1 w-full min-w-20 rounded-xs shadow-xl"
                                     style={{
                                         position: 'absolute',
                                         top: exportDropdownPosition?.top ?? 0,
@@ -587,7 +587,7 @@ const CustomDataGridInner = <T,>({
                                     const dropdown = openColumnDropdown && columnDropdownRef.current
                                         ? createPortal(
                                             <div
-                                                className="absolute z-50 bg-white dark:bg-slate-800 border border-gray-300 dark:border-gray-600 mt-1 w-full min-w-60 rounded-sm shadow-xl"
+                                                className="absolute z-50 bg-white dark:bg-slate-800 border border-gray-300 dark:border-gray-600 mt-1 w-full min-w-60 rounded-xs shadow-xl"
                                                 style={{
                                                     position: 'absolute',
                                                     top: dropdownPosition?.top ?? 0,
@@ -675,7 +675,7 @@ const CustomDataGridInner = <T,>({
                             <thead className={theadWrapper}>
                               <tr>
                                 {rowSelection?.enabled && (
-                                  <th className="py-2 border-r border-gray-300 dark:border-slate-700 border-b-0 bg-gray-200 dark:!bg-slate-700 text-center w-10">
+                                  <th className="py-2 border-r border-gray-300 dark:border-slate-700 border-b-0 bg-gray-200 dark:bg-slate-700! text-center w-10">
                                     <input
                                       ref={headerCheckboxRef}
                                       type="checkbox"
@@ -809,7 +809,7 @@ const CustomDataGridInner = <T,>({
                                                     openMultiSelect[String(col.key)] && buttonRef.current
                                                         ? createPortal(
                                                             <div
-                                                                className="absolute z-50 bg-white dark:bg-slate-800 border border-gray-300 dark:border-gray-600 mt-1 w-full min-w-40 rounded-sm shadow-xl"
+                                                                className="absolute z-50 bg-white dark:bg-slate-800 border border-gray-300 dark:border-gray-600 mt-1 w-full min-w-40 rounded-xs shadow-xl"
                                                                 style={{
                                                                     position: 'absolute',
                                                                     top: dropdownPosition?.top ?? 0,
@@ -820,7 +820,7 @@ const CustomDataGridInner = <T,>({
                                                                 <input
                                                                     type="text"
                                                                     placeholder="Type to filter..."
-                                                                    className="w-full form-input bg-transparent/10 max-w-full px-2 py-1 border-b rounded-sm text-sm sticky top-0 truncate"
+                                                                    className="w-full form-input bg-transparent/10 max-w-full px-2 py-1 border-b rounded-xs text-sm sticky top-0 truncate"
                                                                     value={multiSelectSearch[col.key as string] || ''}
                                                                     onChange={e =>
                                                                         setMultiSelectSearch(prev => ({
@@ -894,12 +894,12 @@ const CustomDataGridInner = <T,>({
                                             })()
                                         )}
                                         {col.filter === 'date' && (
-                                            <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded truncate" />
+                                            <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded-sm truncate" />
                                         )}
                                         {col.filter === 'dateRange' && (
                                             <div className="flex gap-1">
-                                                <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded truncate" />
-                                                <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded truncate" />
+                                                <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded-sm truncate" />
+                                                <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded-sm truncate" />
                                             </div>
                                         )}
                                     </td>
@@ -1052,7 +1052,7 @@ const CustomDataGridInner = <T,>({
                             <label htmlFor="pageSize" className="text-sm max-w-[100px] dark:text-danger-light text-gray-600 font-normal">Page size:</label>
                             <select
                                 id="pageSize"
-                                className="form-select form-select-sm max-w-[100px] px-1 rounded-sm bg-white/50 truncate dark:text-danger-light focus:outline-none "
+                                className="form-select form-select-sm max-w-[100px] px-1 rounded-xs bg-white/50 truncate dark:text-danger-light focus:outline-hidden "
                                 value={pageSize}
                                 onChange={(e) => {
                                     setCurrentPage(1);

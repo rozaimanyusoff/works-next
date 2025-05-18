@@ -51,7 +51,7 @@ const [modal16, setModal16] = useState(false);
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="fadein_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="fadein_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <DialogPanel className="panel border-0 p-0 rounded-lg overflow-hidden w-full max-w-lg my-8 text-black dark:text-white-dark animate__animated animate__fadeIn">
                                 <div className="flex bg-[#fbfbfb] dark:bg-[#121c2c] items-center justify-between px-5 py-3">
@@ -98,7 +98,7 @@ const [modal16, setModal16] = useState(false);
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="slideIn_down_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="slideIn_down_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <DialogPanel className="panel border-0 p-0 rounded-lg overflow-hidden w-full max-w-lg my-8 text-black dark:text-white-dark animate__animated animate__slideInDown">
                                 <div className="flex bg-[#fbfbfb] dark:bg-[#121c2c] items-center justify-between px-5 py-3">
@@ -145,7 +145,7 @@ const [modal16, setModal16] = useState(false);
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="fadein_left_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="fadein_left_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <DialogPanel className="panel border-0 p-0 rounded-lg overflow-hidden w-full max-w-lg my-8 text-black dark:text-white-dark animate__animated animate__fadeInUp">
                                 <div className="flex bg-[#fbfbfb] dark:bg-[#121c2c] items-center justify-between px-5 py-3">
@@ -192,7 +192,7 @@ const [modal16, setModal16] = useState(false);
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="slidein_up_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="slidein_up_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <DialogPanel className="panel border-0 p-0 rounded-lg overflow-hidden w-full max-w-lg my-8 text-black dark:text-white-dark animate__animated animate__slideInUp">
                                 <div className="flex bg-[#fbfbfb] dark:bg-[#121c2c] items-center justify-between px-5 py-3">
@@ -239,7 +239,7 @@ const [modal16, setModal16] = useState(false);
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="fadein_up_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="fadein_up_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <DialogPanel
                                 className='panel border-0 p-0 rounded-lg overflow-hidden w-full max-w-lg my-8 text-black dark:text-white-dark animate__animated'
@@ -289,7 +289,7 @@ const [modal16, setModal16] = useState(false);
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="rotatein_left_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="rotatein_left_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <DialogPanel
                                 className='panel border-0 p-0 rounded-lg overflow-hidden w-full max-w-lg my-8 text-black dark:text-white-dark animate__animated'
@@ -338,7 +338,7 @@ const [modal16, setModal16] = useState(false);
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="fadein_right_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="fadein_right_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <DialogPanel
                                 className='panel border-0 p-0 rounded-lg overflow-hidden w-full max-w-lg my-8 text-black dark:text-white-dark animate__animated'
@@ -387,7 +387,7 @@ const [modal16, setModal16] = useState(false);
                     >
                         <div className="fixed inset-0" />
                     </TransitionChild>
-                    <div id="zoomIn_up_modal" className="fixed inset-0 bg-[black]/60 z-[999] overflow-y-auto">
+                    <div id="zoomIn_up_modal" className="fixed inset-0 bg-[black]/60 z-999 overflow-y-auto">
                         <div className="flex items-start justify-center min-h-screen px-4">
                             <DialogPanel className="panel border-0 p-0 rounded-lg overflow-hidden w-full max-w-lg my-8 text-black dark:text-white-dark animate__animated animate__zoomInUp">
                                 <div className="flex bg-[#fbfbfb] dark:bg-[#121c2c] items-center justify-between px-5 py-3">
@@ -440,7 +440,7 @@ const [modal16, setModal16] = useState(false);
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="fadein_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="fadein_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <DialogPanel className="panel animate__animated animate__fadeIn my-8 w-full max-w-lg overflow-hidden rounded-lg border-0 p-0 text-black dark:text-white-dark">
                                             <div className="flex items-center justify-between bg-[#fbfbfb] px-5 py-3 dark:bg-[#121c2c]">
@@ -487,7 +487,7 @@ const [modal16, setModal16] = useState(false);
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="slideIn_down_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="slideIn_down_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <DialogPanel className="panel animate__animated animate__slideInDown my-8 w-full max-w-lg overflow-hidden rounded-lg border-0 p-0 text-black dark:text-white-dark">
                                             <div className="flex items-center justify-between bg-[#fbfbfb] px-5 py-3 dark:bg-[#121c2c]">
@@ -534,7 +534,7 @@ const [modal16, setModal16] = useState(false);
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="fadein_left_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="fadein_left_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <DialogPanel className="panel animate__animated animate__fadeInUp my-8 w-full max-w-lg overflow-hidden rounded-lg border-0 p-0 text-black dark:text-white-dark">
                                             <div className="flex items-center justify-between bg-[#fbfbfb] px-5 py-3 dark:bg-[#121c2c]">
@@ -581,7 +581,7 @@ const [modal16, setModal16] = useState(false);
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="slidein_up_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="slidein_up_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <DialogPanel className="panel animate__animated animate__slideInUp my-8 w-full max-w-lg overflow-hidden rounded-lg border-0 p-0 text-black dark:text-white-dark">
                                             <div className="flex items-center justify-between bg-[#fbfbfb] px-5 py-3 dark:bg-[#121c2c]">
@@ -628,7 +628,7 @@ const [modal16, setModal16] = useState(false);
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="fadein_up_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="fadein_up_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <DialogPanel
                                             className={`panel animate__animated my-8 w-full max-w-lg overflow-hidden rounded-lg border-0 p-0 text-black dark:text-white-dark ${
@@ -679,7 +679,7 @@ const [modal16, setModal16] = useState(false);
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="rotatein_left_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="rotatein_left_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <DialogPanel
                                             className={`panel animate__animated my-8 w-full max-w-lg overflow-hidden rounded-lg border-0 p-0 text-black dark:text-white-dark ${
@@ -730,7 +730,7 @@ const [modal16, setModal16] = useState(false);
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="fadein_right_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="fadein_right_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <DialogPanel
                                             className={`panel animate__animated my-8 w-full max-w-lg overflow-hidden rounded-lg border-0 p-0 text-black dark:text-white-dark ${
@@ -781,7 +781,7 @@ const [modal16, setModal16] = useState(false);
                                 >
                                     <div className="fixed inset-0" />
                                 </TransitionChild>
-                                <div id="zoomIn_up_modal" className="fixed inset-0 z-[999] overflow-y-auto bg-[black]/60">
+                                <div id="zoomIn_up_modal" className="fixed inset-0 z-999 overflow-y-auto bg-[black]/60">
                                     <div className="flex min-h-screen items-start justify-center px-4">
                                         <DialogPanel className="panel animate__animated animate__zoomInUp my-8 w-full max-w-lg overflow-hidden rounded-lg border-0 p-0 text-black dark:text-white-dark">
                                             <div className="flex items-center justify-between bg-[#fbfbfb] px-5 py-3 dark:bg-[#121c2c]">

@@ -60,7 +60,7 @@ const UserMgmtMain = () => {
 						{tabTitles.map((title, index) => (
 							<Tab
 								key={index}
-								className="mr-4 pb-2 cursor-pointer focus:outline-none"
+								className="mr-4 pb-2 cursor-pointer focus:outline-hidden"
 								selectedClassName="border-b-2 border-blue-500"
 							>
 								{title}

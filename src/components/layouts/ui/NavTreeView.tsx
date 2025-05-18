@@ -50,7 +50,7 @@ const NavTreeView: React.FC<NavTreeViewProps> = ({ tree, className, checkedNavId
 
     return (
         <div className={className || "mt-4"}>
-            <div className="bg-gray-50 dark:bg-gray-800 rounded p-3 border border-gray-200 dark:border-gray-700">
+            <div className="bg-gray-50 dark:bg-gray-800 rounded-sm p-3 border border-gray-200 dark:border-gray-700">
                 <div className="font-semibold my-1 text-gray-700 dark:text-gray-200 underline underline-offset-4">Navigation Structure</div>
                 {tree && tree.length > 0 ? tree.map((node) => renderNode(node)) : <div className="text-gray-400 italic">No navigation structure</div>}
             </div>

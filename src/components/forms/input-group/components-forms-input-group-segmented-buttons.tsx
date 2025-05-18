@@ -31,7 +31,7 @@ const ComponentsFormsInputGroupSegmentedButtons = () => {
                         <svg> ... </svg>
                     }
                 >
-                    <ul className="!min-w-[170px]">
+                    <ul className="min-w-[170px]!">
                         <li>
                             <button type="button">Action</button>
                         </li>
@@ -64,7 +64,7 @@ const ComponentsFormsInputGroupSegmentedButtons = () => {
                         <svg> ... </svg>
                     }
                 >
-                    <ul className="!min-w-[170px]">
+                    <ul className="min-w-[170px]!">
                         <li>
                             <button type="button">Action</button>
                         </li>
@@ -108,7 +108,7 @@ const ComponentsFormsInputGroupSegmentedButtons = () => {
                                     btnClassName="bg-white dark:bg-[#1b2e4b] text-info flex justify-center items-center rounded-none px-3 font-semibold border border-info cursor-pointer pt-2 pb-2"
                                     button={<IconCaretDown className="h-5 w-5" />}
                                 >
-                                    <ul className="!min-w-[170px]">
+                                    <ul className="min-w-[170px]!">
                                         <li>
                                             <button type="button">Action</button>
                                         </li>
@@ -139,7 +139,7 @@ const ComponentsFormsInputGroupSegmentedButtons = () => {
                                     btnClassName="bg-white dark:bg-[#1b2e4b] text-secondary flex justify-center items-center rounded-none px-3 font-semibold border border-secondary pt-2 pb-2"
                                     button={<IconCaretDown className="h-5 w-5" />}
                                 >
-                                    <ul className="!min-w-[170px]">
+                                    <ul className="min-w-[170px]!">
                                         <li>
                                             <button type="button">Action</button>
                                         </li>

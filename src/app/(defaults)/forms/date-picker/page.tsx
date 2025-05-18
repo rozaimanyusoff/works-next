@@ -33,7 +33,7 @@ const DatePicker = () => {
             </ul>
             <div className="space-y-8 pt-5">
                 <div className="space-y-8" id="date_time_picker">
-                    <div className="inline-block rounded bg-[#009688]/[.26] px-2 py-1 text-base text-[#009688]">Date and Time Picker</div>
+                    <div className="inline-block rounded-sm bg-[#009688]/[.26] px-2 py-1 text-base text-[#009688]">Date and Time Picker</div>
                     <div className="panel flex items-center overflow-x-auto whitespace-nowrap p-3 text-primary">
                         <div className="rounded-full bg-primary p-1.5 text-white ring-2 ring-primary/30 ltr:mr-3 rtl:ml-3">
                             <IconBell />
@@ -61,7 +61,7 @@ const DatePicker = () => {
 
                 <div className="space-y-8" id="js_range_slider">
                     {/*  range picker */}
-                    <div className="inline-block rounded bg-[#009688]/[.26] px-2 py-1 text-base text-[#009688]">Javascript Range Slider</div>
+                    <div className="inline-block rounded-sm bg-[#009688]/[.26] px-2 py-1 text-base text-[#009688]">Javascript Range Slider</div>
                     <div className="grid gap-6 lg:grid-cols-2">
                         {/* Top-Left */}
                         <ComponentsFormRangePickerTopLeft />
@@ -78,7 +78,7 @@ const DatePicker = () => {
 
                 <div className="space-y-8" id="noui_sliders">
                     {/* Nouislider */}
-                    <div className="inline-block rounded bg-[#009688]/[.26] px-2 py-1 text-base text-[#009688]">noUI Slider</div>
+                    <div className="inline-block rounded-sm bg-[#009688]/[.26] px-2 py-1 text-base text-[#009688]">noUI Slider</div>
                     <div className="panel flex items-center overflow-x-auto whitespace-nowrap p-3 text-primary">
                         <div className="rounded-full bg-primary p-1.5 text-white ring-2 ring-primary/30 ltr:mr-3 rtl:ml-3">
                             <IconBell />

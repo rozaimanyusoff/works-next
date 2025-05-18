@@ -33,7 +33,7 @@ const ElementsSearchOverlay = () => {
                     <input
                         type="text"
                         placeholder="Search..."
-                        className={\`form-input bg-white h-full placeholder:tracking-wider hidden ltr:pl-12 rtl:pr-12 peer \${focus ? '!block' : ''}\`}
+                        className={\`form-input bg-white h-full placeholder:tracking-wider hidden ltr:pl-12 rtl:pr-12 peer \${focus ? 'block!' : ''}\`}
                     />
                     <button
                         type="button"
@@ -51,7 +51,7 @@ const ElementsSearchOverlay = () => {
                 <form>
                     <ClickAwayListener onClickAway={overlayClickAway}>
                         <div className="search-form-overlay relative h-12 w-full rounded-md border border-white-dark/20" onClick={overlaySearchClick}>
-                            <input type="text" placeholder="Search..." className={`peer form-input hidden h-full bg-white placeholder:tracking-wider ltr:pl-12 rtl:pr-12 ${focus ? '!block' : ''}`} />
+                            <input type="text" placeholder="Search..." className={`peer form-input hidden h-full bg-white placeholder:tracking-wider ltr:pl-12 rtl:pr-12 ${focus ? 'block!' : ''}`} />
                             <button
                                 type="button"
                                 className={`absolute inset-y-0 my-auto flex h-9 w-9 items-center justify-center p-0 text-dark/70 peer-focus:text-primary ltr:right-1 rtl:left-1 ${

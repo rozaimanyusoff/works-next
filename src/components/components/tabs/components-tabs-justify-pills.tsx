@@ -21,9 +21,9 @@ import { Fragment } from 'react';
             <Tab.List className="mt-3 flex flex-wrap border-b border-white-light dark:border-[#191e3a]">
                 <Tab as={Fragment}>
                     {({ selected }) => (
-                        <div className="flex-auto text-center !outline-none">
+                        <div className="flex-auto text-center outline-hidden!">
                             <button
-                                className={\`\${selected ? 'bg-info text-white !outline-none' : ''} -mb-[1px] block rounded p-3.5 py-2 before:inline-block hover:bg-info hover:text-white w-full\`}>
+                                className={\`\${selected ? 'bg-info text-white outline-hidden!' : ''} -mb-px block rounded-sm p-3.5 py-2 before:inline-block hover:bg-info hover:text-white w-full\`}>
                                 Home
                             </button>
                         </div>
@@ -32,7 +32,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                        className={\`\${selected ? 'bg-info text-white !outline-none' : ''} -mb-[1px] block rounded p-3.5 py-2 before:inline-block hover:bg-info hover:text-white w-full\`}>
+                        className={\`\${selected ? 'bg-info text-white outline-hidden!' : ''} -mb-px block rounded-sm p-3.5 py-2 before:inline-block hover:bg-info hover:text-white w-full\`}>
                             Profile
                         </button>
                     )}
@@ -40,7 +40,7 @@ import { Fragment } from 'react';
                 <Tab as={Fragment}>
                     {({ selected }) => (
                         <button
-                        className={\`\${selected ? 'bg-info text-white !outline-none' : ''} -mb-[1px] block rounded p-3.5 py-2 before:inline-block hover:bg-info hover:text-white w-full\`}>
+                        className={\`\${selected ? 'bg-info text-white outline-hidden!' : ''} -mb-px block rounded-sm p-3.5 py-2 before:inline-block hover:bg-info hover:text-white w-full\`}>
                             Contact
                         </button>
                     )}
@@ -101,10 +101,10 @@ import { Fragment } from 'react';
                         <Tab.List className="mt-3 flex flex-wrap justify-between space-x-2 rtl:space-x-reverse">
                             <Tab as={Fragment}>
                                 {({ selected }) => (
-                                    <div className="flex-auto text-center !outline-none">
+                                    <div className="flex-auto text-center outline-hidden!">
                                         <button
-                                            className={`${selected ? 'bg-info text-white !outline-none' : ''}
-                                                    -mb-[1px] block w-full rounded p-3.5 py-2 before:inline-block hover:bg-info hover:text-white`}
+                                            className={`${selected ? 'bg-info text-white outline-hidden!' : ''}
+                                                    -mb-px block w-full rounded p-3.5 py-2 before:inline-block hover:bg-info hover:text-white`}
                                         >
                                             Home
                                         </button>
@@ -113,10 +113,10 @@ import { Fragment } from 'react';
                             </Tab>
                             <Tab as={Fragment}>
                                 {({ selected }) => (
-                                    <div className="flex-auto text-center !outline-none">
+                                    <div className="flex-auto text-center outline-hidden!">
                                         <button
-                                            className={`${selected ? 'bg-info text-white !outline-none' : ''}
-                                                    -mb-[1px] block w-full rounded p-3.5 py-2 before:inline-block hover:bg-info hover:text-white`}
+                                            className={`${selected ? 'bg-info text-white outline-hidden!' : ''}
+                                                    -mb-px block w-full rounded p-3.5 py-2 before:inline-block hover:bg-info hover:text-white`}
                                         >
                                             Profile
                                         </button>
@@ -125,10 +125,10 @@ import { Fragment } from 'react';
                             </Tab>
                             <Tab as={Fragment}>
                                 {({ selected }) => (
-                                    <div className="flex-auto text-center !outline-none">
+                                    <div className="flex-auto text-center outline-hidden!">
                                         <button
-                                            className={`${selected ? 'bg-info text-white !outline-none' : ''}
-                                                    -mb-[1px] block w-full rounded p-3.5 py-2 before:inline-block hover:bg-info hover:text-white`}
+                                            className={`${selected ? 'bg-info text-white outline-hidden!' : ''}
+                                                    -mb-px block w-full rounded p-3.5 py-2 before:inline-block hover:bg-info hover:text-white`}
                                         >
                                             Contact
                                         </button>

@@ -199,18 +199,18 @@ export const CustomDataGrid = <T,>({
 
     return (
         <>
-            <div className="relative rounded w-full transition-all duration-300 ease-in-out overflow-x-auto min-w-0 lg:min-w-[768px]">
-                <div className="overflow-x-auto border dark:border-dark rounded-sm">
+            <div className="relative rounded-sm w-full transition-all duration-300 ease-in-out overflow-x-auto min-w-0 lg:min-w-[768px]">
+                <div className="overflow-x-auto border dark:border-dark rounded-xs">
                     {(inputFilter || columnsVisibleOption) && (
-                        <div className="flex items-start gap-2 p-1 bg-gray-300 dark:!bg-slate-900">
+                        <div className="flex items-start gap-2 p-1 bg-gray-300 dark:bg-slate-900!">
                             {inputFilter && (
-                                <div className="flex-grow">
+                                <div className="grow">
                                     <input
                                         type="text"
                                         placeholder="Search..."
                                         value={filterText}
                                         onChange={e => setFilterText(e.target.value)}
-                                        className="form-input bg-transparent/10 placeholder:text-base dark:placeholder:text-dark-light p-2 border rounded-sm w-full"
+                                        className="form-input bg-transparent/10 placeholder:text-base dark:placeholder:text-dark-light p-2 border rounded-xs w-full"
                                     />
                                 </div>
                             )}
@@ -251,7 +251,7 @@ export const CustomDataGrid = <T,>({
                                 const dropdown = openColumnDropdown && columnDropdownRef.current
                                     ? createPortal(
                                         <div
-                                            className="absolute z-50 bg-white dark:bg-slate-800 border border-gray-300 dark:border-gray-600 mt-1 w-full min-w-60 rounded-sm shadow-xl"
+                                            className="absolute z-50 bg-white dark:bg-slate-800 border border-gray-300 dark:border-gray-600 mt-1 w-full min-w-60 rounded-xs shadow-xl"
                                             style={{
                                                 position: 'absolute',
                                                 top: dropdownPosition?.top ?? 0,
@@ -299,7 +299,7 @@ export const CustomDataGrid = <T,>({
                                                     return !prev;
                                                 });
                                             }}
-                                            className="form-select bg-transparent/10 placeholder:text-base placeholder:text-gray-600 dark:placeholder:text-dark-light p-2 border rounded-sm text-left truncate min-w-[150px]"
+                                            className="form-select bg-transparent/10 placeholder:text-base placeholder:text-gray-600 dark:placeholder:text-dark-light p-2 border rounded-xs text-left truncate min-w-[150px]"
                                         >
                                             Visible Columns
                                         </button>
@@ -311,7 +311,7 @@ export const CustomDataGrid = <T,>({
                     )}
                     <div className={`${!pagination ? 'max-h-[500px] overflow-y-auto overflow-x-visible relative z-0' : ''}`}>
                         <table className="w-full border-collapse min-w-full whitespace-nowrap">
-                            <thead className="bg-gray-300 dark:!bg-slate-900 dark:text-dark-light sticky top-0 z-10">
+                            <thead className="bg-gray-300 dark:bg-slate-900! dark:text-dark-light sticky top-0 z-10">
                                 <tr>
                                     {rowSelection?.enabled && (
                                         <th className="py-2 border-b-0 text-center w-10">
@@ -422,7 +422,7 @@ export const CustomDataGrid = <T,>({
                                             {col.filter === 'input' && (
                                                 <input
                                                     type="text"
-                                                    className="w-full form-input max-w-full px-1 py-0.5 border text-sm rounded-sm dark:placeholder:text-dark-light"
+                                                    className="w-full form-input max-w-full px-1 py-0.5 border text-sm rounded-xs dark:placeholder:text-dark-light"
                                                     placeholder={`Search ${col.header}`}
                                                     onChange={e => {
                                                         setColumnFilters(prev => ({
@@ -451,7 +451,7 @@ export const CustomDataGrid = <T,>({
                                                         return null;
                                                     })()}
                                                     <select
-                                                        className="w-full form-select max-w-full px-1 py-0.5 border capitalize text-sm rounded-sm truncate dark:text-dark-light"
+                                                        className="w-full form-select max-w-full px-1 py-0.5 border capitalize text-sm rounded-xs truncate dark:text-dark-light"
                                                         onChange={e => {
                                                             setColumnFilters(prev => ({
                                                                 ...prev,
@@ -498,7 +498,7 @@ export const CustomDataGrid = <T,>({
                                                         openMultiSelect[String(col.key)] && buttonRef.current
                                                             ? createPortal(
                                                                 <div
-                                                                    className="absolute z-50 bg-white dark:bg-slate-800 border border-gray-300 dark:border-gray-600 mt-1 w-full min-w-40 rounded-sm shadow-xl"
+                                                                    className="absolute z-50 bg-white dark:bg-slate-800 border border-gray-300 dark:border-gray-600 mt-1 w-full min-w-40 rounded-xs shadow-xl"
                                                                     style={{
                                                                         position: 'absolute',
                                                                         top: dropdownPosition?.top ?? 0,
@@ -509,7 +509,7 @@ export const CustomDataGrid = <T,>({
                                                                     <input
                                                                         type="text"
                                                                         placeholder="Type to filter..."
-                                                                        className="w-full form-input bg-transparent/10 max-w-full px-2 py-1 border-b rounded-sm text-sm sticky top-0 truncate"
+                                                                        className="w-full form-input bg-transparent/10 max-w-full px-2 py-1 border-b rounded-xs text-sm sticky top-0 truncate"
                                                                         value={multiSelectSearch[col.key as string] || ''}
                                                                         onChange={e =>
                                                                             setMultiSelectSearch(prev => ({
@@ -573,7 +573,7 @@ export const CustomDataGrid = <T,>({
                                                                         [key]: !prev[key],
                                                                     }));
                                                                 }}
-                                                                className="w-full form-select dark:text-dark-light max-w-full px-1 py-0.5 border text-sm rounded-sm text-left truncate"
+                                                                className="w-full form-select dark:text-dark-light max-w-full px-1 py-0.5 border text-sm rounded-xs text-left truncate"
                                                             >
                                                                 Select multiple
                                                             </button>
@@ -583,12 +583,12 @@ export const CustomDataGrid = <T,>({
                                                 })()
                                             )}
                                             {col.filter === 'date' && (
-                                                <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded truncate" />
+                                                <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded-sm truncate" />
                                             )}
                                             {col.filter === 'dateRange' && (
                                                 <div className="flex gap-1">
-                                                    <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded truncate" />
-                                                    <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded truncate" />
+                                                    <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded-sm truncate" />
+                                                    <input type="date" className="w-full max-w-full px-1 py-0.5 border text-sm rounded-sm truncate" />
                                                 </div>
                                             )}
                                         </td>
@@ -601,7 +601,7 @@ export const CustomDataGrid = <T,>({
                                     return (
                                         <React.Fragment key={key}>
                                             <tr
-                                                className={`${rowClass?.(row) ?? 'even:bg-gray-50 dark:bg-slate-700'} ${expandedRows.has(key as number) ? '!bg-amber-200 dark:!bg-amber-600' : ''} dark:text-dark-light hover:bg-amber-100 dark:hover:bg-amber-600 dark:hover:font-semibold dark:hover:text-white ${rowSelection?.enabled && selectedRowKeys.has(key) ? '!bg-amber-200 dark:!bg-amber-800' : ''
+                                                className={`${rowClass?.(row) ?? 'even:bg-gray-50 dark:bg-slate-700'} ${expandedRows.has(key as number) ? 'bg-amber-200! dark:bg-amber-600!' : ''} dark:text-dark-light hover:bg-amber-100 dark:hover:bg-amber-600 dark:hover:font-semibold dark:hover:text-white ${rowSelection?.enabled && selectedRowKeys.has(key) ? 'bg-amber-200! dark:bg-amber-800!' : ''
                                                     }`}
                                             >
                                                 {rowSelection?.enabled && (
@@ -623,7 +623,7 @@ export const CustomDataGrid = <T,>({
                                                 )}
                                                 {rowExpandable?.enabled && (
                                                     <td
-                                                        className={`border-r-[1px] dark:border-dark dark:border-r-slate-700 text-center bg-white dark:bg-slate-800 ${expandedRows.has(key as number) ? 'border-t' : 'border-t'}`}
+                                                        className={`border-r dark:border-dark dark:border-r-slate-700 text-center bg-white dark:bg-slate-800 ${expandedRows.has(key as number) ? 'border-t' : 'border-t'}`}
                                                     >
                                                         <button
                                                             onClick={() => {
@@ -651,7 +651,7 @@ export const CustomDataGrid = <T,>({
                                             {expandedRows.has(key as number) && (
                                                 <tr>
                                                     {rowSelection?.enabled && <td className="dark:border-dark" />}
-                                                    {rowExpandable?.enabled && <td className="border-r-[1px] dark:border-dark dark:border-r-slate-700" />}
+                                                    {rowExpandable?.enabled && <td className="border-r dark:border-dark dark:border-r-slate-700" />}
                                                     <td colSpan={columns.filter(col => visibleColumns[String(col.key)]).length} className="bg-amber-200 dark:bg-amber-600 dark:text-dark-light px-4 py-2 border-t-0 dark:border-t-0">
                                                         <table className="w-full table-fixed border-separate border-spacing-0">
                                                             <tbody>
@@ -688,7 +688,7 @@ export const CustomDataGrid = <T,>({
                             <label htmlFor="pageSize" className="text-sm max-w-[100px] dark:text-danger-light">Page size:</label>
                             <select
                                 id="pageSize"
-                                className="form-select max-w-[100px] px-1 py-0.5 rounded-sm capitalizerounded-sm truncate dark:text-danger-light focus:outline-none "
+                                className="form-select max-w-[100px] px-1 py-0.5 rounded-xs capitalizerounded-sm truncate dark:text-danger-light focus:outline-hidden "
                                 value={pageSize}
                                 onChange={(e) => {
                                     setCurrentPage(1);
@@ -703,7 +703,7 @@ export const CustomDataGrid = <T,>({
                         <div className="flex items-center gap-1">
                             <button
                                 onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
-                                className="px-3 py-1 border rounded disabled:opacity-50 dark:text-danger-light"
+                                className="px-3 py-1 border rounded-sm disabled:opacity-50 dark:text-danger-light"
                                 disabled={currentPage === 1}
                             >
                                 Prev
@@ -712,14 +712,14 @@ export const CustomDataGrid = <T,>({
                                 <button
                                     key={page}
                                     onClick={() => setCurrentPage(page)}
-                                    className={`px-3 py-1 border rounded ${currentPage === page ? 'bg-blue-600 text-white dark:text-danger-light font-semibold' : ''}`}
+                                    className={`px-3 py-1 border rounded-sm ${currentPage === page ? 'bg-blue-600 text-white dark:text-danger-light font-semibold' : ''}`}
                                 >
                                     {page}
                                 </button>
                             ))}
                             <button
                                 onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
-                                className="px-3 py-1 border rounded disabled:opacity-50"
+                                className="px-3 py-1 border rounded-sm disabled:opacity-50"
                                 disabled={currentPage === totalPages}
                             >
                                 Next

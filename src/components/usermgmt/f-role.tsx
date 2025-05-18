@@ -108,12 +108,12 @@ const FRoleForm: React.FC<FRoleFormProps> = ({
                         ))}
                     </div>
                 </div>
-                <div className="w-full border dark:border-gray-700 rounded p-3 flex-shrink-0 min-w-0 max-w-full bg-gray-50 dark:bg-gray-800 mb-4 lg:mb-0">
+                <div className="w-full border dark:border-gray-700 rounded-sm p-3 shrink-0 min-w-0 max-w-full bg-gray-50 dark:bg-gray-800 mb-4 lg:mb-0">
                     <div className="flex items-center justify-between mb-1">
                         <span className="font-semibold underline underline-offset-4">Assigned Users</span>
                         <button
                             type="button"
-                            className="px-2 py-1 text-sm rounded-full hover:bg-green-100 hover:shadow transition flex items-center gap-1"
+                            className="px-2 py-1 text-sm rounded-full hover:bg-green-100 hover:shadow-sm transition flex items-center gap-1"
                             onClick={onAssignUsers}
                         >
                             <FontAwesomeIcon icon={faPlusCircle} className="text-green-600 text-lg" /> Assign Users

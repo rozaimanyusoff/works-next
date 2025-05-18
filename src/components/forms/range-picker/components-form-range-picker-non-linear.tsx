@@ -44,7 +44,7 @@ const onSide = (render: any, handle: any, value: any, un: any, percent: any) => 
             <span className="text-primary mr-2" id="nouiMin2">
                 {parseInt(slider2[0]).toFixed(2)}
             </span>
-            <span className="border border-white-light dark:border-dark py-1 px-2 text-dark dark:text-white-dark rounded" id="nouiMin2Perc">
+            <span className="border border-white-light dark:border-dark py-1 px-2 text-dark dark:text-white-dark rounded-sm" id="nouiMin2Perc">
                 {\`\${parseInt(percent2[0])}%\`}
             </span>
         </div>
@@ -52,7 +52,7 @@ const onSide = (render: any, handle: any, value: any, un: any, percent: any) => 
             <span className="text-primary mr-2" id="nouiMax2">
                 {parseInt(slider2[1]).toFixed(2)}
             </span>
-            <span className="border border-white-light dark:border-dark py-1 px-2 text-dark dark:text-white-dark rounded" id="nouiMax2Perc">
+            <span className="border border-white-light dark:border-dark py-1 px-2 text-dark dark:text-white-dark rounded-sm" id="nouiMax2Perc">
                 {\`\${parseInt(percent2[1])}%\`}
             </span>
         </div>

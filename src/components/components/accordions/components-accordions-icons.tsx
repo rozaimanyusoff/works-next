@@ -30,10 +30,10 @@ const [active2, setActive2] = useState<string>('1');
 
 <div className="mb-5">
     <div className="space-y-2 font-semibold">
-        <div className="border border-[#d3d3d3] rounded dark:border-[#1b2e4b]">
+        <div className="border border-[#d3d3d3] rounded-sm dark:border-[#1b2e4b]">
             <button
                 type="button"
-                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active2 === '1' ? '!text-primary' : ''}\`}
+                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active2 === '1' ? 'text-primary!' : ''}\`}
                 onClick={() => togglePara2('1')}
             >
                 <svg>...</svg>
@@ -57,10 +57,10 @@ const [active2, setActive2] = useState<string>('1');
                 </AnimateHeight>
             </div>
         </div>
-        <div className="border border-[#d3d3d3] dark:border-[#1b2e4b] rounded">
+        <div className="border border-[#d3d3d3] dark:border-[#1b2e4b] rounded-sm">
             <button
                 type="button"
-                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active2 === '2' ? '!text-primary' : ''}\`}
+                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active2 === '2' ? 'text-primary!' : ''}\`}
                 onClick={() => togglePara2('2')}
             >
                 <svg>...</svg>
@@ -90,10 +90,10 @@ const [active2, setActive2] = useState<string>('1');
                 </AnimateHeight>
             </div>
         </div>
-        <div className="border border-[#d3d3d3] dark:border-[#1b2e4b] rounded">
+        <div className="border border-[#d3d3d3] dark:border-[#1b2e4b] rounded-sm">
             <button
                 type="button"
-                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active2 === '3' ? '!text-primary' : ''}\`}
+                className={\`p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b] \${active2 === '3' ? 'text-primary!' : ''}\`}
                 onClick={() => togglePara2('3')}
             >
                 <svg>...</svg>
@@ -125,7 +125,7 @@ const [active2, setActive2] = useState<string>('1');
             <div className="mb-5">
                 <div className="space-y-2 font-semibold">
                     <div className="rounded border border-[#d3d3d3] dark:border-[#1b2e4b]">
-                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active2 === '1' ? '!text-primary' : ''}`} onClick={() => togglePara2('1')}>
+                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active2 === '1' ? 'text-primary!' : ''}`} onClick={() => togglePara2('1')}>
                             <IconAirplay className="shrink-0 text-primary ltr:mr-2 rtl:ml-2" />
                             Collapsible Group Item #1
                             <div className={`ltr:ml-auto rtl:mr-auto ${active2 === '1' ? 'rotate-180' : ''}`}>
@@ -148,7 +148,7 @@ const [active2, setActive2] = useState<string>('1');
                         </div>
                     </div>
                     <div className="rounded border border-[#d3d3d3] dark:border-[#1b2e4b]">
-                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active2 === '2' ? '!text-primary' : ''}`} onClick={() => togglePara2('2')}>
+                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active2 === '2' ? 'text-primary!' : ''}`} onClick={() => togglePara2('2')}>
                             <IconBox className="shrink-0 text-primary ltr:mr-2 rtl:ml-2" />
                             Collapsible Group Item #2
                             <div className={`ltr:ml-auto rtl:mr-auto ${active2 === '2' ? 'rotate-180' : ''}`}>
@@ -177,7 +177,7 @@ const [active2, setActive2] = useState<string>('1');
                         </div>
                     </div>
                     <div className="rounded border border-[#d3d3d3] dark:border-[#1b2e4b]">
-                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active2 === '3' ? '!text-primary' : ''}`} onClick={() => togglePara2('3')}>
+                        <button type="button" className={`flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b] ${active2 === '3' ? 'text-primary!' : ''}`} onClick={() => togglePara2('3')}>
                             <IconLayout className="shrink-0 text-primary ltr:mr-2 rtl:ml-2" />
                             Collapsible Group Item #3
                             <div className={`ltr:ml-auto rtl:mr-auto ${active2 === '3' ? 'rotate-180' : ''}`}>

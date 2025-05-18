@@ -60,7 +60,7 @@ const onChange2 = (imageList: ImageListType, addUpdateIndex: number[] | undefine
                             >
                                 <svg>...</svg>
                             </button>
-                            <img src={image.dataURL} alt="img" className="object-cover shadow rounded w-full !max-h-48" />
+                            <img src={image.dataURL} alt="img" className="object-cover shadow-sm rounded-sm w-full max-h-48!" />
                         </div>
                     ))}
                 </div>
@@ -106,7 +106,7 @@ const onChange2 = (imageList: ImageListType, addUpdateIndex: number[] | undefine
                                             >
                                                 <IconX className="h-3 w-3" />
                                             </button>
-                                            <img src={image.dataURL} alt="img" className="!max-h-48 w-full rounded object-cover shadow" />
+                                            <img src={image.dataURL} alt="img" className="max-h-48! w-full rounded-sm object-cover shadow-sm" />
                                         </div>
                                     ))}
                                 </div>

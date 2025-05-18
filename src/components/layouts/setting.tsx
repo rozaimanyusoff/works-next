@@ -26,17 +26,17 @@ const Setting = () => {
                 <h5 className="mb-1 text-base dark:text-white leading-none">Color Scheme</h5>
                 <p className="text-dark text-xs font-semibold dark:text-white-light">Overall light or dark presentation.</p>
                 <div className="grid grid-cols-3 gap-2 mt-3">
-                    <button type="button" className={`${themeConfig.theme === 'light' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border-1 border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600'} text-xs btn shadow-none rounded-full`} onClick={() => dispatch(toggleTheme('light'))}>
+                    <button type="button" className={`${themeConfig.theme === 'light' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600'} text-xs btn shadow-none rounded-full`} onClick={() => dispatch(toggleTheme('light'))}>
                         <IconSun className="w-5 h-5 shrink-0 ltr:mr-1 rtl:ml-1" />
                         Light
                     </button>
 
-                    <button type="button" className={`${themeConfig.theme === 'dark' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border-1 border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} text-xs btn shadow-none rounded-full`} onClick={() => dispatch(toggleTheme('dark'))}>
+                    <button type="button" className={`${themeConfig.theme === 'dark' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} text-xs btn shadow-none rounded-full`} onClick={() => dispatch(toggleTheme('dark'))}>
                         <IconMoon className="w-5 h-5 shrink-0 ltr:mr-1 rtl:ml-1" />
                         Dark
                     </button>
 
-                    <button type="button" className={`${themeConfig.theme === 'system' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border-1 border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} text-xs btn shadow-none rounded-full`} onClick={() => dispatch(toggleTheme('system'))}>
+                    <button type="button" className={`${themeConfig.theme === 'system' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} text-xs btn shadow-none rounded-full`} onClick={() => dispatch(toggleTheme('system'))}>
                         <IconLaptop className="w-5 h-5 shrink-0 ltr:mr-1 rtl:ml-1" />
                         System
                     </button>
@@ -47,17 +47,17 @@ const Setting = () => {
                 <h5 className="mb-1 text-base dark:text-white leading-none">Navigation Position</h5>
                 <p className="text-dark text-xs dark:text-white-light">Select the primary navigation paradigm for your app.</p>
                 <div className="grid grid-cols-3 gap-2 mt-3">
-                    <button type="button" className={`${themeConfig.menu === 'horizontal' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border-1 border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} p-2.5 text-xs btn shadow-none rounded-full`} onClick={() => dispatch(toggleMenu('horizontal'))}>
+                    <button type="button" className={`${themeConfig.menu === 'horizontal' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} p-2.5 text-xs btn shadow-none rounded-full`} onClick={() => dispatch(toggleMenu('horizontal'))}>
                         Horizontal
                     </button>
 
-                    <button type="button" className={`${themeConfig.menu === 'vertical' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border-1 border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} p-2.5 text-xs btn shadow-none rounded-full`} onClick={() => dispatch(toggleMenu('vertical'))}>
+                    <button type="button" className={`${themeConfig.menu === 'vertical' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} p-2.5 text-xs btn shadow-none rounded-full`} onClick={() => dispatch(toggleMenu('vertical'))}>
                         Vertical
                     </button>
 
                     <button
                         type="button"
-                        className={`${themeConfig.menu === 'collapsible-vertical' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border-1 border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} p-2.5 text-xs btn shadow-none rounded-full`}
+                        className={`${themeConfig.menu === 'collapsible-vertical' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} p-2.5 text-xs btn shadow-none rounded-full`}
                         onClick={() => dispatch(toggleMenu('collapsible-vertical'))}
                     >
                         Collapsible
@@ -82,13 +82,13 @@ const Setting = () => {
                 <div className="flex gap-2 mt-3">
                     <button
                         type="button"
-                        className={`${themeConfig.layout === 'boxed-layout' ? 'bg-blue-600 dark:border-blue-600 text-white dark:text-gray-300' : 'border-1 border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} btn shadow-none flex-auto text-xs rounded-full`}
+                        className={`${themeConfig.layout === 'boxed-layout' ? 'bg-blue-600 dark:border-blue-600 text-white dark:text-gray-300' : 'border border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} btn shadow-none flex-auto text-xs rounded-full`}
                         onClick={() => dispatch(toggleLayout('boxed-layout'))}
                     >
                         Box
                     </button>
 
-                    <button type="button" className={`${themeConfig.layout === 'full' ? 'bg-blue-600 dark:border-blue-600 text-white dark:text-gray-300' : 'border-1 border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} btn shadow-none flex-auto text-xs rounded-full`} onClick={() => dispatch(toggleLayout('full'))}>
+                    <button type="button" className={`${themeConfig.layout === 'full' ? 'bg-blue-600 dark:border-blue-600 text-white dark:text-gray-300' : 'border border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} btn shadow-none flex-auto text-xs rounded-full`} onClick={() => dispatch(toggleLayout('full'))}>
                         Full
                     </button>
                 </div>
@@ -98,11 +98,11 @@ const Setting = () => {
                 <h5 className="mb-1 text-base dark:text-white leading-none">Direction</h5>
                 <p className="text-dark text-xs dark:text-white-light">Select the direction for your app.</p>
                 <div className="flex gap-2 mt-3">
-                    <button type="button" className={`${themeConfig.rtlClass === 'ltr' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border-1 border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} btn shadow-none flex-auto text-xs rounded-full`} onClick={() => dispatch(toggleRTL('ltr'))}>
+                    <button type="button" className={`${themeConfig.rtlClass === 'ltr' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} btn shadow-none flex-auto text-xs rounded-full`} onClick={() => dispatch(toggleRTL('ltr'))}>
                         LTR
                     </button>
 
-                    <button type="button" className={`${themeConfig.rtlClass === 'rtl' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border-1 border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} btn shadow-none flex-auto text-xs rounded-full`} onClick={() => dispatch(toggleRTL('rtl'))}>
+                    <button type="button" className={`${themeConfig.rtlClass === 'rtl' ? 'bg-blue-600 border-0 text-white dark:text-gray-300' : 'border border-blue-600 dark:border-blue-500 dark:text-gray-300 hover:bg-blue-600 hover:text-white'} btn shadow-none flex-auto text-xs rounded-full`} onClick={() => dispatch(toggleRTL('rtl'))}>
                         RTL
                     </button>
                 </div>

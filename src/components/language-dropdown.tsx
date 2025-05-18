@@ -48,7 +48,7 @@ const LanguageDropdown = ({ className = '' }: LanguageDropdownProps) => {
                         </>
                     }
                 >
-                    <ul className="grid w-[280px] grid-cols-2 gap-2 !px-2 font-semibold text-dark dark:text-white-dark dark:text-white-light/90">
+                    <ul className="grid w-[280px] grid-cols-2 gap-2 px-2! font-semibold text-dark dark:text-white-dark dark:text-white-light/90">
                         {themeConfig.languageList.map((item: any) => {
                             return (
                                 <li key={item.code}>

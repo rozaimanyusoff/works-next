@@ -47,7 +47,7 @@ const ComponentsFormsLayoutsGrid = () => {
             <span className="text-white-dark">Check me out</span>
         </label>
     </div>
-    <button type="submit" className="btn btn-primary !mt-6">
+    <button type="submit" className="btn btn-primary mt-6!">
         Submit
     </button>
 </form>`}
@@ -95,7 +95,7 @@ const ComponentsFormsLayoutsGrid = () => {
                             <span className="text-white-dark">Check me out</span>
                         </label>
                     </div>
-                    <button type="submit" className="btn btn-primary !mt-6">
+                    <button type="submit" className="btn btn-primary mt-6!">
                         Submit
                     </button>
                 </form>

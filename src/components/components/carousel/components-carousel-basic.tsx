@@ -44,10 +44,10 @@ const themeConfig = useSelector((state: IRootState) => state.themeConfig);
             );
         })}
     </div>
-    <button className="swiper-button-prev-ex1 grid place-content-center ltr:left-2 rtl:right-2 p-1 transition text-primary hover:text-white border border-primary  hover:border-primary hover:bg-primary rounded-full absolute z-[999] top-1/2 -translate-y-1/2">
+    <button className="swiper-button-prev-ex1 grid place-content-center ltr:left-2 rtl:right-2 p-1 transition text-primary hover:text-white border border-primary  hover:border-primary hover:bg-primary rounded-full absolute z-999 top-1/2 -translate-y-1/2">
         <svg>...</svg>
     </button>
-    <button className="swiper-button-next-ex1 grid place-content-center ltr:right-2 rtl:left-2 p-1 transition text-primary hover:text-white border border-primary  hover:border-primary hover:bg-primary rounded-full absolute z-[999] top-1/2 -translate-y-1/2">
+    <button className="swiper-button-next-ex1 grid place-content-center ltr:right-2 rtl:left-2 p-1 transition text-primary hover:text-white border border-primary  hover:border-primary hover:bg-primary rounded-full absolute z-999 top-1/2 -translate-y-1/2">
         <svg>...</svg>
     </button>
 </Swiper>`}
@@ -73,10 +73,10 @@ const themeConfig = useSelector((state: IRootState) => state.themeConfig);
                         );
                     })}
                 </div>
-                <button className="swiper-button-prev-ex1 absolute top-1/2 z-[999] grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1  text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:left-2 rtl:right-2">
+                <button className="swiper-button-prev-ex1 absolute top-1/2 z-999 grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1  text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:left-2 rtl:right-2">
                     <IconCaretDown className="h-5 w-5 rotate-90 rtl:-rotate-90" />
                 </button>
-                <button className="swiper-button-next-ex1 absolute top-1/2 z-[999] grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1  text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:right-2 rtl:left-2">
+                <button className="swiper-button-next-ex1 absolute top-1/2 z-999 grid -translate-y-1/2 place-content-center rounded-full border border-primary p-1  text-primary transition hover:border-primary hover:bg-primary hover:text-white ltr:right-2 rtl:left-2">
                     <IconCaretDown className="h-5 w-5 -rotate-90 rtl:rotate-90" />
                 </button>
             </Swiper>

@@ -141,11 +141,11 @@ const Typography = () => {
                 <div className="panel">
                     <h5 className="mb-5 text-lg font-semibold dark:text-white-light">Blockquote</h5>
                     <div className="mb-5 flex items-center justify-center">
-                        <blockquote className="rounded-br-md rounded-tr-md border border-l-2 border-white-light !border-l-primary bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
+                        <blockquote className="rounded-br-md rounded-tr-md border border-l-2 border-white-light border-l-primary! bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
                             <div className="flex items-start">
                                 <p className="m-0 text-sm not-italic text-[#515365] dark:text-white-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                             </div>
-                            <small className="block w-full text-xs not-italic text-[#777] before:relative before:-top-1 before:inline-block before:h-[1px] before:w-3 before:bg-[#777] before:opacity-50 ltr:before:mr-1 rtl:before:ml-1">
+                            <small className="block w-full text-xs not-italic text-[#777] before:relative before:-top-1 before:inline-block before:h-px before:w-3 before:bg-[#777] before:opacity-50 ltr:before:mr-1 rtl:before:ml-1">
                                 Someone famous <cite className="italic">Source Title</cite>
                             </small>
                         </blockquote>
@@ -155,14 +155,14 @@ const Typography = () => {
                 <div className="panel">
                     <h5 className="mb-5 text-lg font-semibold dark:text-white-light">Blockquote with profile</h5>
                     <div className="mb-5 flex items-center justify-center">
-                        <blockquote className="rounded-br-md rounded-tr-md border border-l-2 border-white-light !border-l-primary bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
+                        <blockquote className="rounded-br-md rounded-tr-md border border-l-2 border-white-light border-l-primary! bg-white p-5 text-black shadow-md ltr:pl-3.5 rtl:pr-3.5 dark:border-[#060818] dark:bg-[#060818]">
                             <div className="flex items-start">
                                 <div className="h-14 w-14 flex-none ltr:mr-5 rtl:ml-5">
                                     <img src="/assets/images/profile-34.jpeg" alt="img" className="m-auto h-14 w-14 rounded-full object-cover" />
                                 </div>
                                 <p className="m-0 text-sm not-italic text-[#515365] dark:text-white-light">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
                             </div>
-                            <small className="block w-full text-xs not-italic text-[#777] before:relative before:-top-1 before:inline-block before:h-[1px] before:w-3 before:bg-[#777] before:opacity-50 ltr:text-right ltr:before:mr-1 rtl:text-left rtl:before:ml-1">
+                            <small className="block w-full text-xs not-italic text-[#777] before:relative before:-top-1 before:inline-block before:h-px before:w-3 before:bg-[#777] before:opacity-50 ltr:text-right ltr:before:mr-1 rtl:text-left rtl:before:ml-1">
                                 Someone famous <cite className="italic">Source Title</cite>
                             </small>
                         </blockquote>

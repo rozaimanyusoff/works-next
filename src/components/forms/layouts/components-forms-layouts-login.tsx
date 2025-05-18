@@ -15,10 +15,10 @@ const ComponentsFormsLayoutsLogin = () => {
     <div>
         <input type="password" placeholder="Enter Password *" className="form-input" />
     </div>
-    <div className="!mt-2">
+    <div className="mt-2!">
         <span className="text-white-dark text-[11px] inline-block">*Required Fields</span>
     </div>
-    <button type="submit" className="btn btn-primary !mt-6">
+    <button type="submit" className="btn btn-primary mt-6!">
         Submit
     </button>
 </form>`}
@@ -34,10 +34,10 @@ const ComponentsFormsLayoutsLogin = () => {
                     <div>
                         <input type="password" placeholder="Enter Password *" className="form-input" />
                     </div>
-                    <div className="!mt-2">
+                    <div className="mt-2!">
                         <span className="inline-block text-[11px] text-white-dark">*Required Fields</span>
                     </div>
-                    <button type="submit" className="btn btn-primary !mt-6">
+                    <button type="submit" className="btn btn-primary mt-6!">
                         Submit
                     </button>
                 </form>

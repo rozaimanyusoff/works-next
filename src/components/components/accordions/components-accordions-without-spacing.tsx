@@ -26,11 +26,11 @@ const [active1, setActive1] = useState<string>('1');
     };
 
 <div className="mb-5">
-    <div className="border border-[#d3d3d3] dark:border-[#3b3f5c] rounded font-semibold">
-        <div className="border-b border-[#d3d3d3] dark:border-[#3b3f5c]">
+    <div className="border border-[#d3d3d3] dark:border-dark rounded-sm font-semibold">
+        <div className="border-b border-[#d3d3d3] dark:border-dark">
             <button
                 type="button"
-                className={\`\${active1 === '1' ? '!text-primary' : ''} p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b]\`}
+                className={\`\${active1 === '1' ? 'text-primary!' : ''} p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b]\`}
                 onClick={() => togglePara1('1')}
             >
                 Collapsible Group Item #1
@@ -54,10 +54,10 @@ const [active1, setActive1] = useState<string>('1');
             </div>
         </div>
 
-        <div className="border-b border-[#d3d3d3] dark:border-[#3b3f5c]">
+        <div className="border-b border-[#d3d3d3] dark:border-dark">
             <button
                 type="button"
-                className={\`\${active1 === '2' ? '!text-primary' : ''} p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b]\`}
+                className={\`\${active1 === '2' ? 'text-primary!' : ''} p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b]\`}
                 onClick={() => togglePara1('2')}
             >
                 Collapsible Group Item #2
@@ -90,7 +90,7 @@ const [active1, setActive1] = useState<string>('1');
         <div>
             <button
                 type="button"
-                className={\`\${active1 === '3' ? '!text-primary' : ''} p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b]\`}
+                className={\`\${active1 === '3' ? 'text-primary!' : ''} p-4 w-full flex items-center text-white-dark dark:bg-[#1b2e4b]\`}
                 onClick={() => togglePara1('3')}
             >
                 Collapsible Group Item #3
@@ -119,9 +119,9 @@ const [active1, setActive1] = useState<string>('1');
 </div>`}
         >
             <div className="mb-5">
-                <div className="rounded border border-[#d3d3d3] font-semibold dark:border-[#3b3f5c]">
-                    <div className="border-b border-[#d3d3d3] dark:border-[#3b3f5c]">
-                        <button type="button" className={` ${active1 === '1' ? '!text-primary' : ''} flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b]`} onClick={() => togglePara1('1')}>
+                <div className="rounded border border-[#d3d3d3] font-semibold dark:border-dark">
+                    <div className="border-b border-[#d3d3d3] dark:border-dark">
+                        <button type="button" className={` ${active1 === '1' ? 'text-primary!' : ''} flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b]`} onClick={() => togglePara1('1')}>
                             Collapsible Group Item #1
                             <div className={`${active1 === '1' ? 'rotate-180' : ''} ltr:ml-auto rtl:mr-auto`}>
                                 <IconCaretDown />
@@ -143,8 +143,8 @@ const [active1, setActive1] = useState<string>('1');
                         </div>
                     </div>
 
-                    <div className="border-b border-[#d3d3d3] dark:border-[#3b3f5c]">
-                        <button type="button" className={` ${active1 === '2' ? '!text-primary' : ''} flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b]`} onClick={() => togglePara1('2')}>
+                    <div className="border-b border-[#d3d3d3] dark:border-dark">
+                        <button type="button" className={` ${active1 === '2' ? 'text-primary!' : ''} flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b]`} onClick={() => togglePara1('2')}>
                             Collapsible Group Item #2
                             <div className={`${active1 === '2' ? 'rotate-180' : ''} ltr:ml-auto rtl:mr-auto`}>
                                 <IconCaretDown />
@@ -173,7 +173,7 @@ const [active1, setActive1] = useState<string>('1');
                     </div>
 
                     <div>
-                        <button type="button" className={` ${active1 === '3' ? '!text-primary' : ''} flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b]`} onClick={() => togglePara1('3')}>
+                        <button type="button" className={` ${active1 === '3' ? 'text-primary!' : ''} flex w-full items-center p-4 text-white-dark dark:bg-[#1b2e4b]`} onClick={() => togglePara1('3')}>
                             Collapsible Group Item #3
                             <div className={`${active1 === '3' ? 'rotate-180' : ''} ltr:ml-auto rtl:mr-auto`}>
                                 <IconCaretDown />

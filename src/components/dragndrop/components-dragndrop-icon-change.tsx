@@ -73,7 +73,7 @@ const ComponentsDragndropIconChange = () => {
                                 return (
                                     <li key={item.id} className="mb-2.5 cursor-grab">
                                         <div className="items-md-center flex flex-col rounded-md border border-white-light bg-white px-6 py-3.5 ltr:text-left rtl:text-right dark:border-dark dark:bg-[#1b2e4b] md:flex-row">
-                                            <div className="ltr:sm:mr-4 rtl:sm:ml-4">
+                                            <div className="sm:ltr:mr-4 sm:rtl:ml-4">
                                                 <img alt="avatar" src={`/assets/images/profile-${item.id}.jpeg`} className="h-11 w-11 rounded-full" />
                                             </div>
                                             <div className="flex flex-1 items-center justify-between">
@@ -100,7 +100,7 @@ const ComponentsDragndropIconChange = () => {
                                 return (
                                     <li key={item.id} className="mb-2.5 cursor-grab">
                                         <div className="items-md-center flex flex-col rounded-md border border-white-light bg-white px-6 py-3.5 ltr:text-left rtl:text-right dark:border-dark dark:bg-[#1b2e4b] md:flex-row">
-                                            <div className="ltr:sm:mr-4 rtl:sm:ml-4">
+                                            <div className="sm:ltr:mr-4 sm:rtl:ml-4">
                                                 <img alt="avatar" src={`/assets/images/profile-${item.id}.jpeg`} className="h-11 w-11 rounded-full" />
                                             </div>
                                             <div className="flex flex-1 items-center justify-between">

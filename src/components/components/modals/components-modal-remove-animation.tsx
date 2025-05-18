@@ -33,7 +33,7 @@ const [modal4, setModal4] = useState(false);
             >
                 <div className="fixed inset-0" />
             </TransitionChild>
-            <div className="fixed inset-0 bg-[black]/60 z-[999] px-4">
+            <div className="fixed inset-0 bg-[black]/60 z-999 px-4">
                 <div className="flex items-start justify-center min-h-screen px-4">
                     <DialogPanel className="panel border-0 p-0 rounded-lg overflow-hidden  w-full max-w-lg my-8 text-black dark:text-white-dark">
                         <div className="flex bg-[#fbfbfb] dark:bg-[#121c2c] items-center justify-between px-5 py-3">
@@ -83,7 +83,7 @@ const [modal4, setModal4] = useState(false);
                         >
                             <div className="fixed inset-0" />
                         </TransitionChild>
-                        <div className="fixed inset-0 z-[999] bg-[black]/60 px-4">
+                        <div className="fixed inset-0 z-999 bg-[black]/60 px-4">
                             <div className="flex min-h-screen items-start justify-center px-4">
                                 <DialogPanel className="panel my-8 w-full max-w-lg overflow-hidden  rounded-lg border-0 p-0 text-black dark:text-white-dark">
                                     <div className="flex items-center justify-between bg-[#fbfbfb] px-5 py-3 dark:bg-[#121c2c]">

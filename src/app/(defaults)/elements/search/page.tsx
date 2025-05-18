@@ -45,7 +45,7 @@ const overlaySearchClick = () => {
         <input
             type="text"
             placeholder="Let's find your question in fast way"
-            className="form-input border-0 border-l rounded-none bg-white  focus:shadow-[0_0_5px_2px_rgb(194_213_255_/_62%)] dark:shadow-[#1b2e4b] placeholder:tracking-wider focus:outline-none py-3"
+            className="form-input border-0 border-l rounded-none bg-white  focus:shadow-[0_0_5px_2px_rgb(194_213_255/62%)] dark:shadow-[#1b2e4b] placeholder:tracking-wider focus:outline-hidden py-3"
         />
     </div>
 </form>`}
@@ -59,7 +59,7 @@ const overlaySearchClick = () => {
                                 <input
                                     type="text"
                                     placeholder="Let's find your question in fast way"
-                                    className="form-input rounded-none border-0 border-l bg-white  py-3 placeholder:tracking-wider focus:shadow-[0_0_5px_2px_rgb(194_213_255_/_62%)] focus:outline-none dark:shadow-[#1b2e4b]"
+                                    className="form-input rounded-none border-0 border-l bg-white  py-3 placeholder:tracking-wider focus:shadow-[0_0_5px_2px_rgb(194_213_255/62%)] focus:outline-hidden dark:shadow-[#1b2e4b]"
                                 />
                             </div>
                         </form>

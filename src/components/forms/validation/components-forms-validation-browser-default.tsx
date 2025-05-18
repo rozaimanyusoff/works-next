@@ -80,7 +80,7 @@ const submitForm = () => {
         <input type="checkbox" id="agree1 className="form-checkbox" required />
         <label htmlFor="agree1" className="text-white-dark font-semibold mb-0">Agree to terms and conditions</label>
     </div>
-    <button type="submit" className="btn btn-primary !mt-6">
+    <button type="submit" className="btn btn-primary mt-6!">
         Submit Form
     </button>
 </form>`}
@@ -132,7 +132,7 @@ const submitForm = () => {
                             Agree to terms and conditions
                         </label>
                     </div>
-                    <button type="submit" className="btn btn-primary !mt-6">
+                    <button type="submit" className="btn btn-primary mt-6!">
                         Submit Form
                     </button>
                 </form>

@@ -22,7 +22,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
             btnClassName="btn dropdown-toggle btn-primary ltr:rounded-l-none rtl:rounded-r-none border-l-[#4468fd] before:border-[5px] before:border-l-transparent before:border-r-transparent before:border-t-inherit before:border-b-0 before:inline-block before:border-t-white-light h-full"
             button={<span className="sr-only">Toggle dropdown</span>}
         >
-            <ul className="!min-w-[170px]">
+            <ul className="min-w-[170px]!">
                 <li>
                     <button type="button">
                         Action
@@ -55,7 +55,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
             btnClassName="btn btn-outline-primary ltr:rounded-l-none rtl:rounded-r-none dropdown-toggle before:border-[5px] before:border-l-transparent before:border-r-transparent before:border-t-inherit before:border-b-0 before:inline-block hover:before:border-t-white-light h-full"
             button={<span className="sr-only">Toggle dropdown</span>}
         >
-            <ul className="!min-w-[170px]">
+            <ul className="min-w-[170px]!">
                 <li>
                     <button type="button">
                         Action
@@ -92,7 +92,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                                     btnClassName="btn dropdown-toggle btn-primary ltr:rounded-l-none rtl:rounded-r-none border-l-[#4468fd] before:border-[5px] before:border-l-transparent before:border-r-transparent before:border-t-inherit before:border-b-0 before:inline-block before:border-t-white-light h-full"
                                     button={<span className="sr-only">Toggle dropdown</span>}
                                 >
-                                    <ul className="!min-w-[170px]">
+                                    <ul className="min-w-[170px]!">
                                         <li>
                                             <button type="button">Action</button>
                                         </li>
@@ -119,7 +119,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                                     btnClassName="btn btn-outline-primary ltr:rounded-l-none rtl:rounded-r-none dropdown-toggle before:border-[5px] before:border-l-transparent before:border-r-transparent before:border-t-inherit before:border-b-0 before:inline-block hover:before:border-t-white-light h-full"
                                     button={<span className="sr-only">Toggle dropdown</span>}
                                 >
-                                    <ul className="!min-w-[170px]">
+                                    <ul className="min-w-[170px]!">
                                         <li>
                                             <button type="button">Action</button>
                                         </li>

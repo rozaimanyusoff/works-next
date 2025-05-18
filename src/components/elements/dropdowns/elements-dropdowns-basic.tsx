@@ -28,7 +28,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
             </>
         }
     >
-    <ul className="!min-w-[170px]">
+    <ul className="min-w-[170px]!">
         <li>
             <button type="button">
                 Action
@@ -65,7 +65,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                 </>
             }
         >
-        <ul className="!min-w-[170px]">
+        <ul className="min-w-[170px]!">
             <li>
                 <button type="button">
                     Action
@@ -106,7 +106,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                                     </>
                                 }
                             >
-                                <ul className="!min-w-[170px]">
+                                <ul className="min-w-[170px]!">
                                     <li>
                                         <button type="button">Action</button>
                                     </li>
@@ -137,7 +137,7 @@ const isRtl = useSelector((state: IRootState) => state.themeConfig.rtlClass) ===
                                     </>
                                 }
                             >
-                                <ul className="!min-w-[170px]">
+                                <ul className="min-w-[170px]!">
                                     <li>
                                         <button type="button">Action</button>
                                     </li>

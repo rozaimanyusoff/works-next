@@ -80,55 +80,55 @@ useEffect(() => {
 
 <div className="mb-5 grid grid-cols-4 justify-items-center gap-3">
     <div>
-        <div className="w-16 h-16 sm:w-[100px] sm:h-[100px] shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] rounded border border-white-light dark:border-[#1b2e4b] flex justify-center flex-col">
+        <div className="w-16 h-16 sm:w-[100px] sm:h-[100px] shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] rounded-sm border border-white-light dark:border-[#1b2e4b] flex justify-center flex-col">
             <h1 className="text-primary sm:text-3xl text-xl text-center">{demo1.days}</h1>
         </div>
-        <h4 className="text-[#3b3f5c] text-[15px] mt-4 text-center dark:text-white-dark font-semibold">Days</h4>
+        <h4 className="text-dark text-[15px] mt-4 text-center dark:text-white-dark font-semibold">Days</h4>
     </div>
     <div>
-        <div className="w-16 h-16 sm:w-[100px] sm:h-[100px] shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] rounded border border-white-light dark:border-[#1b2e4b] flex justify-center flex-col">
+        <div className="w-16 h-16 sm:w-[100px] sm:h-[100px] shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] rounded-sm border border-white-light dark:border-[#1b2e4b] flex justify-center flex-col">
             <h1 className="text-primary sm:text-3xl text-xl text-center">{demo1.hours}</h1>
         </div>
-        <h4 className="text-[#3b3f5c] text-[15px] mt-4 text-center dark:text-white-dark font-semibold">Hours</h4>
+        <h4 className="text-dark text-[15px] mt-4 text-center dark:text-white-dark font-semibold">Hours</h4>
     </div>
     <div>
-        <div className="w-16 h-16 sm:w-[100px] sm:h-[100px] shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] rounded border border-white-light dark:border-[#1b2e4b] flex justify-center flex-col">
+        <div className="w-16 h-16 sm:w-[100px] sm:h-[100px] shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] rounded-sm border border-white-light dark:border-[#1b2e4b] flex justify-center flex-col">
             <h1 className="text-primary sm:text-3xl text-xl text-center">{demo1.minutes}</h1>
         </div>
-        <h4 className="text-[#3b3f5c] text-[15px] mt-4 text-center dark:text-white-dark font-semibold">Mins</h4>
+        <h4 className="text-dark text-[15px] mt-4 text-center dark:text-white-dark font-semibold">Mins</h4>
     </div>
     <div>
-        <div className="w-16 h-16 sm:w-[100px] sm:h-[100px] shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] rounded border border-white-light dark:border-[#1b2e4b] flex justify-center flex-col">
+        <div className="w-16 h-16 sm:w-[100px] sm:h-[100px] shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] rounded-sm border border-white-light dark:border-[#1b2e4b] flex justify-center flex-col">
             <h1 className="text-primary sm:text-3xl text-xl text-center">{demo1.seconds}</h1>
         </div>
-        <h4 className="text-[#3b3f5c] text-[15px] mt-4 text-center dark:text-white-dark font-semibold">Sec</h4>
+        <h4 className="text-dark text-[15px] mt-4 text-center dark:text-white-dark font-semibold">Sec</h4>
     </div>
 </div>`}
         >
             <div className="mb-5 grid grid-cols-4 justify-items-center gap-3">
                 <div>
-                    <div className="flex h-16 w-16 flex-col justify-center rounded border border-white-light shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] dark:border-[#1b2e4b] sm:h-[100px] sm:w-[100px]">
+                    <div className="flex h-16 w-16 flex-col justify-center rounded-sm border border-white-light shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] dark:border-[#1b2e4b] sm:h-[100px] sm:w-[100px]">
                         <h1 className="text-center text-xl text-primary sm:text-3xl">{demo1.days}</h1>
                     </div>
-                    <h4 className="mt-4 text-center text-[15px] font-semibold text-[#3b3f5c] dark:text-white-dark">Days</h4>
+                    <h4 className="mt-4 text-center text-[15px] font-semibold text-dark dark:text-white-dark">Days</h4>
                 </div>
                 <div>
-                    <div className="flex h-16 w-16 flex-col justify-center rounded border border-white-light shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] dark:border-[#1b2e4b] sm:h-[100px] sm:w-[100px]">
+                    <div className="flex h-16 w-16 flex-col justify-center rounded-sm border border-white-light shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] dark:border-[#1b2e4b] sm:h-[100px] sm:w-[100px]">
                         <h1 className="text-center text-xl text-primary sm:text-3xl">{demo1.hours}</h1>
                     </div>
-                    <h4 className="mt-4 text-center text-[15px] font-semibold text-[#3b3f5c] dark:text-white-dark">Hours</h4>
+                    <h4 className="mt-4 text-center text-[15px] font-semibold text-dark dark:text-white-dark">Hours</h4>
                 </div>
                 <div>
-                    <div className="flex h-16 w-16 flex-col justify-center rounded border border-white-light shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] dark:border-[#1b2e4b] sm:h-[100px] sm:w-[100px]">
+                    <div className="flex h-16 w-16 flex-col justify-center rounded-sm border border-white-light shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] dark:border-[#1b2e4b] sm:h-[100px] sm:w-[100px]">
                         <h1 className="text-center text-xl text-primary sm:text-3xl">{demo1.minutes}</h1>
                     </div>
-                    <h4 className="mt-4 text-center text-[15px] font-semibold text-[#3b3f5c] dark:text-white-dark">Mins</h4>
+                    <h4 className="mt-4 text-center text-[15px] font-semibold text-dark dark:text-white-dark">Mins</h4>
                 </div>
                 <div>
-                    <div className="flex h-16 w-16 flex-col justify-center rounded border border-white-light shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] dark:border-[#1b2e4b] sm:h-[100px] sm:w-[100px]">
+                    <div className="flex h-16 w-16 flex-col justify-center rounded-sm border border-white-light shadow-[1px_2px_12px_0_rgba(31,45,61,0.10)] dark:border-[#1b2e4b] sm:h-[100px] sm:w-[100px]">
                         <h1 className="text-center text-xl text-primary sm:text-3xl">{demo1.seconds}</h1>
                     </div>
-                    <h4 className="mt-4 text-center text-[15px] font-semibold text-[#3b3f5c] dark:text-white-dark">Sec</h4>
+                    <h4 className="mt-4 text-center text-[15px] font-semibold text-dark dark:text-white-dark">Sec</h4>
                 </div>
             </div>
         </PanelCodeHighlight>
